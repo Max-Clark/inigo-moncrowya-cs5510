@@ -1,4 +1,5 @@
 import RPi.GPIO as GPIO
+import time
 
 # GPIO INITIALIZATION
 FRONT_SERVO_PIN = 4
