@@ -9,6 +9,12 @@ SERVO_LEFT_RIGHT_PIN = 14
 #Set the GPIO port to BCM encoding mode
 
 GPIO.setmode(GPIO.BCM)
+GPIO.setup(FRONT_SERVO_PIN,GPIO.OUT,initial=GPIO.HIGH)
+
+GPIO.setup(SERVO_UP_DOWN_PIN,GPIO.OUT,initial=GPIO.HIGH)
+
+GPIO.setup(SERVO_LEFT_RIGHT_PIN,GPIO.OUT,initial=GPIO.HIGH)
+
 
 # SERVO PULSE
 def servo_pulse(servo_pin, angle):
