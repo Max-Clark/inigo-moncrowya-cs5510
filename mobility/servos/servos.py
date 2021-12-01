@@ -37,5 +37,5 @@ def servo_pulse(servo_pin, angle):
   time.sleep(20 - pulse_width / 1000)
 
 
-while True:
-    servo_pulse(SERVO_LEFT_RIGHT_PIN, 90)
+
+servo_pulse(SERVO_UP_DOWN_PIN, 90)
