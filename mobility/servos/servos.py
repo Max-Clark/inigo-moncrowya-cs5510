@@ -32,6 +32,6 @@ def servo_pulse(servo_pin, angle):
   GPIO.output(servo_pin, GPIO.HIGH)
   time.sleep(pulse_width / 1000000)
   GPIO.output(servo_pin, GPIO.LOW)
-  time.sleep(20 - servo_width / 1000)
+  time.sleep(20 - pulse_width / 1000)
 
 servo_pulse(SERVO_LEFT_RIGHT_PIN, 90)
