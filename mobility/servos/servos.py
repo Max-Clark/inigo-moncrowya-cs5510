@@ -3,9 +3,9 @@ import time
 
 
 # GPIO INITIALIZATION
-FRONT_SERVO_PIN = 4
-SERVO_UP_DOWN_PIN = 13
-SERVO_LEFT_RIGHT_PIN = 14
+FRONT_SERVO_PIN = 23
+SERVO_UP_DOWN_PIN = 9 
+SERVO_LEFT_RIGHT_PIN = 11
 
 
 #Set the GPIO port to BCM encoding mode
@@ -34,8 +34,20 @@ def servo_pulse(servo_pin, angle):
   GPIO.output(servo_pin, GPIO.HIGH)
   time.sleep(pulse_width / 1000000)
   GPIO.output(servo_pin, GPIO.LOW)
-  time.sleep(20 - pulse_width / 1000)
+  time.sleep((20 - pulse_width / 1000)/1000)
 
-GPIO.setup(23, GPIO.OUT, initial=GPIO.HIGH)
-
-servo_pulse(23, 90)
+for i in range(10):
+    # FRONT SONAR SERVO RANGE
+    # left max 135 = -45
+    # right max 45 = 45
+    # UP DOWN SERVO RANGE
+    # center is 22 = 0
+    # backward  max 107 = 85 (looking straight up)
+    # forward max -3 = -25
+    # LEFT RIGHT SERVO RANGE
+    # left max 170 = 70
+    # right max 30 = -70
+    # center 100 = 0
+    #servo_pulse(FRONT_SERVO_PIN, 90-45)
+    #servo_pulse(SERVO_UP_DOWN_PIN, 22+85)
+   servo_pulse(SERVO_LEFT_RIGHT_PIN,100-70)
