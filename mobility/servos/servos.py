@@ -36,6 +36,6 @@ def servo_pulse(servo_pin, angle):
   GPIO.output(servo_pin, GPIO.LOW)
   time.sleep(20 - pulse_width / 1000)
 
+GPIO.setup(23, GPIO.OUT, initial=GPIO.HIGH)
 
-
-servo_pulse(SERVO_UP_DOWN_PIN, 90)
+servo_pulse(23, 90)
