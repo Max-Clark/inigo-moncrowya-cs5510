@@ -62,7 +62,7 @@ class PwmMeasure:
         self._cb.cancel()
         
 if __name__ == "__main__":
-    IN_GPIO = 18  # Named 18 by RPi
+    IN_GPIO = 4 # Named 18 by RPi
     RUN_TIME = 60.0
     SAMPLE_TIME = 0.5
 
