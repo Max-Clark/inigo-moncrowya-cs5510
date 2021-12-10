@@ -91,4 +91,9 @@ def scan_left_right():
     while angle != 30:
         angle -= 1
         move_camera_x(angle)
-    
+
+def scan_up_down():
+    angle = move_camera_x(107)
+    while angle != -1:
+        angle -= 1
+        move_camera_y(angle)
