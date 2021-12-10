@@ -19,12 +19,9 @@ def getImageSizeInPixels(image):
 
 def getObjectWidth(distance, image):
 
-    if distance 
-
     objectWidthOnSensor = getObjectWidthOnSensor(image)
-    
-    
 
+    return ((distance * objectWidthOnSensor) / FOCAL_LENGTH)
 
     
 def getObjectHeight(distance, image):
