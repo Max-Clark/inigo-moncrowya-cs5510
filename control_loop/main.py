@@ -1,14 +1,16 @@
 import pigpio
+import busio
 import time
 import board
 import adafruit_bno055
+from adafruit_blinka.microcontroller.bcm283x.pin import Pin
 import gpsd
 import math
 
 #NOTE:
 # PIGPIO and GPSD must be ran before starting program!
 # sudo pigpiod
-# sudo gpsd /dev/serial0 -F /var/run/gpsd.sock
+# sudo gpsd /dev/ttys0 -F /var/run/gpsd.sock
 
 ################# ADAFRUIT SONAR ####################
 
@@ -72,7 +74,7 @@ class PwmMeasure:
     def cancel(self):
         self._cb.cancel()
         
-IN_GPIO = 18  # Named 18 by RPi
+IN_GPIO = 4
 pi = pigpio.pi()
 p = PwmMeasure(pi, IN_GPIO)
 
@@ -80,7 +82,7 @@ p = PwmMeasure(pi, IN_GPIO)
 
 ################ START BNO055 ####################
 
-i2c = board.I2C()
+i2c = busio.I2C(Pin(1), Pin(0))
 sensor = adafruit_bno055.BNO055_I2C(i2c)
 
 ################# END BNO055 #####################
