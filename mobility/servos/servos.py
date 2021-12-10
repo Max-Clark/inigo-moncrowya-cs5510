@@ -4,7 +4,7 @@ import time
 
 # GPIO INITIALIZATION
 FRONT_SERVO_PIN = 23
-SERVO_UP_DOWN_PIN = 9 
+SERVO_UP_DOWN_PIN = 9
 SERVO_LEFT_RIGHT_PIN = 11
 
 
@@ -51,3 +51,49 @@ for i in range(10):
     #servo_pulse(FRONT_SERVO_PIN, 90-45)
     #servo_pulse(SERVO_UP_DOWN_PIN, 22+85)
    servo_pulse(SERVO_LEFT_RIGHT_PIN,100-70)
+
+def move_camera_x(angle):
+    for i in range(10):
+        if angle > 170:
+            angle = 170
+        if angle < 30:
+            angle = 30
+        servo_pulse(SERVO_LEFT_RIGHT_PIN, angle)
+
+def center_camera_x():
+    servo_pulse(SERVO_LEFT_RIGHT_PIN, 100)
+
+def move_camera_y(angle):
+    for i in range(10):
+        if angle > 107:
+            angle = 107
+        if angle < -3:
+            angle = -3
+        servo_pulse(SERVO_UP_DOWN_PIN, angle)
+
+def center_camera_y():
+    servo_pulse(SERVO_UP_DOWN_PIN, 22)
+
+
+def move_sonar(angle):
+    for i in range(10):
+        if angle > 135:
+            angle = 135
+        if angle < 45:
+            angle = 45
+        servo_pulse(FRONT_SERVO_PIN, angle)
+
+def center_sonar():
+    servo_pulse(FRONT_SERVO_PIN, 90)
+
+def scan_left_right():
+    angle = move_camera_x(170)
+    while angle != 30:
+        angle -= 1
+        move_camera_x(angle)
+
+def scan_up_down():
+    angle = move_camera_x(107)
+    while angle != -1:
+        angle -= 1
+        move_camera_y(angle)
