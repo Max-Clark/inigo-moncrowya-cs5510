@@ -36,7 +36,7 @@ def servo_pulse(servo_pin, angle):
   GPIO.output(servo_pin, GPIO.LOW)
   time.sleep((20 - pulse_width / 1000)/1000)
 
-for i in range(10):
+#for i in range(10):
     # FRONT SONAR SERVO RANGE
     # left max 135 = -45
     # right max 45 = 45
@@ -50,7 +50,7 @@ for i in range(10):
     # center 100 = 0
     #servo_pulse(FRONT_SERVO_PIN, 90-45)
     #servo_pulse(SERVO_UP_DOWN_PIN, 22+85)
-   servo_pulse(SERVO_LEFT_RIGHT_PIN,100-70)
+ #  servo_pulse(SERVO_LEFT_RIGHT_PIN,100-70)
 
 def move_camera_x(angle):
     for i in range(10):
@@ -61,7 +61,7 @@ def move_camera_x(angle):
         servo_pulse(SERVO_LEFT_RIGHT_PIN, angle)
 
 def center_camera_x():
-    servo_pulse(SERVO_LEFT_RIGHT_PIN, 100)
+    move_camera_x(100)
 
 def move_camera_y(angle):
     for i in range(10):
@@ -72,7 +72,7 @@ def move_camera_y(angle):
         servo_pulse(SERVO_UP_DOWN_PIN, angle)
 
 def center_camera_y():
-    servo_pulse(SERVO_UP_DOWN_PIN, 22)
+    move_camera_y(22)
 
 
 def move_sonar(angle):
@@ -84,16 +84,18 @@ def move_sonar(angle):
         servo_pulse(FRONT_SERVO_PIN, angle)
 
 def center_sonar():
-    servo_pulse(FRONT_SERVO_PIN, 90)
+    move_sonar(90)
 
 def scan_left_right():
-    angle = move_camera_x(170)
+    angle = 170
+    move_camera_x(170)
     while angle != 30:
         angle -= 1
         move_camera_x(angle)
 
 def scan_up_down():
-    angle = move_camera_x(107)
+    angle = 107
+    move_camera_x(107)
     while angle != -1:
         angle -= 1
         move_camera_y(angle)
