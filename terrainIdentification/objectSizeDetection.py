@@ -88,10 +88,6 @@ def getObjectWidth(distance, image):
 
     return ((distance * objectWidthOnSensor) / FOCAL_LENGTH)
 
-    
-def getObjectHeight(distance, image):
-    objectHeightOnSensor = getObjectHeightOnSensor(image)
-
 
 def getObjectWidthOnSensor(image):
     # TODO: Get the object width
@@ -100,7 +96,4 @@ def getObjectWidthOnSensor(image):
 
     return (SENSOR_WIDTH * objectWidth)/SENSOR_WIDTH_PIXELS  
 
-
-def getObjectHeightOnSensor(image):
-    pass
 
