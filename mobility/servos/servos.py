@@ -77,14 +77,14 @@ def center_camera_y():
 
 def move_sonar(angle):
     for i in range(10):
-        if angle > 135:
-            angle = 135
-        if angle < 45:
-            angle = 45
+        if angle > 105:
+            angle = 105
+        if angle < 35:
+            angle = 35
         servo_pulse(FRONT_SERVO_PIN, angle)
 
 def center_sonar():
-    move_sonar(90)
+    move_sonar(70)
 
 def scan_left_right():
     angle = 170
