@@ -1,7 +1,7 @@
 import cv2
 
 def takePicture():
-    cam = cv2.VideoCapture(1)
+    cam = cv2.VideoCapture(2)
 
     ret, frame = cam.read()
 

@@ -12,6 +12,7 @@ from vision.object_detection import *
 from vision.detect_person import *
 
 
+
 FOCAL_LENGTH = 3.04  # mm
 SENSOR_WIDTH = 3.68
 SENSOR_HEIGHT = 2.76
