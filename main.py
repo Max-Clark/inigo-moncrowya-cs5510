@@ -17,6 +17,13 @@ SENSOR_WIDTH_PIXELS = 3280
 SENSOR_HEIGHT_PIXELS = 2464
 
 
+RUN_TIME = 60.0
+SAMPLE_TIME = 0.5
+
+IN_GPIO = 4  # Named 18 by RPi
+pi = pigpio.pi()
+p = PwmMeasure(pi, IN_GPIO)
+
 def getPicture():
     camera = PiCamera()
     camera.capture("snapshot.jpg")
@@ -32,17 +39,10 @@ def cropPicture():
     img = cv2.imread("snapshot.jpg")
     cropped_image = img[1250:2000, 820:2460]
     cv2.imwrite('croppedimage.png', img)
-
-
+    
     return 'croppedimage.png'
 
 def getDistance():
-    IN_GPIO = 4  # Named 18 by RPi
-    RUN_TIME = 60.0
-    SAMPLE_TIME = 0.5
-
-    pi = pigpio.pi()
-    p = PwmMeasure(pi, IN_GPIO)
     start = time.time()
 
     time.sleep(SAMPLE_TIME)
@@ -58,6 +58,7 @@ def getDistance():
 
 
 def main():
+
     attemptsToMove = 0    
     distanceTravelled = 0
     motor_init()
@@ -69,6 +70,24 @@ def main():
             if distance > 1:
                 run(1)
                 brake(1)
+                
+               # spin_left(1.2)
+               # brake(1.2)
+               # leftArea = getDistance()
+               # spin_right(2.4)
+               # brake(2.4)
+               # rightArea = getDistance()
+               # spin_left(1.2)
+               # brake(1.2)
+
+
+#                with open("distanceTracker.txt", 'a') as f:
+#                    f.write(str(leftArea))
+#                    f.write(" ")
+#                    f.write(str(rightArea))
+#                    f.write("\n")
+
+
                 attemptsToMove = 0
                 distanceTravelled = 0
 
@@ -96,6 +115,7 @@ def main():
                     back(distanceTravelled)
                     brake(distanceTravelled)
                     spin_right(1.2)
+                    brake(1.2)
                     distanceTravelled = 0
                     attemptsToMove = 0
                     
