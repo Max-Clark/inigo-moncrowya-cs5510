@@ -4,10 +4,12 @@ import cv2
 import time
 from terrainIdentification.objectSizeDetection import *
 from mobility.CarRun import *
+from vision.topCamera import *
 from sensors.mb1040.sensor_test import *
 from picamera import PiCamera
+import os
 
-motor_init()
+
 FOCAL_LENGTH = 3.04  # mm
 SENSOR_WIDTH = 3.68
 SENSOR_HEIGHT = 2.76
@@ -19,16 +21,20 @@ def getPicture():
     camera = PiCamera()
     camera.capture("snapshot.jpg")
     camera.close()
+    
+    print("Cheese!")
+    takePicture()
+    print("Done!")
 
 
 
 def cropPicture():
     img = cv2.imread("snapshot.jpg")
     cropped_image = img[1250:2000, 820:2460]
-    cv2.imwrite('croppedimage.png', cropped_image)
+    cv2.imwrite('croppedimage.png', img)
 
 
-    return cropped_image
+    return 'croppedimage.png'
 
 def getDistance():
     IN_GPIO = 4  # Named 18 by RPi
@@ -39,41 +45,61 @@ def getDistance():
     p = PwmMeasure(pi, IN_GPIO)
     start = time.time()
 
-    while (True):
-        time.sleep(SAMPLE_TIME)
+    time.sleep(SAMPLE_TIME)
 
-        f = p.frequency()
-        pw = p.pulse_width()
-        dc = p.duty_cycle()
+    f = p.frequency()
+    pw = p.pulse_width()
+    dc = p.duty_cycle()
 
-        return ((pw / 147) * 2.54) / 100
+    return ((pw / 147) * 2.54) / 100
 
         # print(f'f={f}, pw={pw}, dc={dc}')
         # print(f'inches={pw / 147}, cm={(pw / 147) * 2.54}, m={((pw / 147) * 2.54) / 100}')
 
 
 def main():
-    
+    attemptsToMove = 0    
+    distanceTravelled = 0
+    motor_init()
     try:
         while True:
-            run(1)
             distance = getDistance()
-            print(distance)
+            print(f"Distance: {distance}")
+            
+            if distance > 1:
+                run(1)
+                brake(1)
+                attemptsToMove = 0
+                distanceTravelled = 0
 
-            if distance < 7:
+            else:
                 getPicture()
                 croppedImage = cropPicture()
                 objectWidth = getObjectWidth(distance, croppedImage)
-                print(objectWidth)
+                print(f"Object Width: {objectWidth}")
                 #  Assume .5 meters per second
-                right(0.5)
-                time.sleep(2)
-                run((objectWidth / .5) * 100)
-                time.sleep(2)
-                left(0.5)
+                spin_right(1.2)
+                brake(1.2)
+                distanceSpin = getDistance()
+                print(f"Distance After Spin {distanceSpin}")
+                if distanceSpin < 1:
+                    attemptsToMove = 4
+                else:
+                    run(((objectWidth + .3) * 0.8))
+                    brake(((objectWidth + 0.3) * 0.8))
+                    spin_left(1.2)
+                    brake(1.2)
+                    attemptsToMove += 1
+                    distanceTravelled += (objectWidth + 0.3) * 0.8
 
+                if attemptsToMove > 3:
+                    back(distanceTravelled)
+                    brake(distanceTravelled)
+                    spin_right(1.2)
+                    distanceTravelled = 0
+                    attemptsToMove = 0
+                    
 
-                time.sleep(5)
     except KeyboardInterrupt:
         pass
 
