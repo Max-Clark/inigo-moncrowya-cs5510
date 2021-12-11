@@ -1,0 +1,322 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "floor lamp"
+                }
+            },
+            {
+                "confidence": 91.375862121582,
+                "tag": {
+                    "en": "lamp"
+                }
+            },
+            {
+                "confidence": 68.05517578125,
+                "tag": {
+                    "en": "furniture"
+                }
+            },
+            {
+                "confidence": 45.5500793457031,
+                "tag": {
+                    "en": "furnishing"
+                }
+            },
+            {
+                "confidence": 21.5575180053711,
+                "tag": {
+                    "en": "pole"
+                }
+            },
+            {
+                "confidence": 15.1785802841187,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 14.4676465988159,
+                "tag": {
+                    "en": "metal"
+                }
+            },
+            {
+                "confidence": 13.9753894805908,
+                "tag": {
+                    "en": "line"
+                }
+            },
+            {
+                "confidence": 13.9179286956787,
+                "tag": {
+                    "en": "old"
+                }
+            },
+            {
+                "confidence": 13.5053987503052,
+                "tag": {
+                    "en": "rod"
+                }
+            },
+            {
+                "confidence": 13.3788871765137,
+                "tag": {
+                    "en": "sky"
+                }
+            },
+            {
+                "confidence": 13.1854782104492,
+                "tag": {
+                    "en": "texture"
+                }
+            },
+            {
+                "confidence": 12.5401592254639,
+                "tag": {
+                    "en": "close"
+                }
+            },
+            {
+                "confidence": 12.0585021972656,
+                "tag": {
+                    "en": "wall"
+                }
+            },
+            {
+                "confidence": 11.7903385162354,
+                "tag": {
+                    "en": "industrial"
+                }
+            },
+            {
+                "confidence": 11.7544918060303,
+                "tag": {
+                    "en": "energy"
+                }
+            },
+            {
+                "confidence": 11.7118148803711,
+                "tag": {
+                    "en": "object"
+                }
+            },
+            {
+                "confidence": 11.6410293579102,
+                "tag": {
+                    "en": "frame"
+                }
+            },
+            {
+                "confidence": 11.377387046814,
+                "tag": {
+                    "en": "structure"
+                }
+            },
+            {
+                "confidence": 11.3179168701172,
+                "tag": {
+                    "en": "electricity"
+                }
+            },
+            {
+                "confidence": 10.909574508667,
+                "tag": {
+                    "en": "door"
+                }
+            },
+            {
+                "confidence": 10.9003610610962,
+                "tag": {
+                    "en": "power"
+                }
+            },
+            {
+                "confidence": 10.6841335296631,
+                "tag": {
+                    "en": "light"
+                }
+            },
+            {
+                "confidence": 10.2991409301758,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 10.2470273971558,
+                "tag": {
+                    "en": "pattern"
+                }
+            },
+            {
+                "confidence": 10.073748588562,
+                "tag": {
+                    "en": "space"
+                }
+            },
+            {
+                "confidence": 9.9293909072876,
+                "tag": {
+                    "en": "equipment"
+                }
+            },
+            {
+                "confidence": 9.85890674591064,
+                "tag": {
+                    "en": "environment"
+                }
+            },
+            {
+                "confidence": 9.71541690826416,
+                "tag": {
+                    "en": "steel"
+                }
+            },
+            {
+                "confidence": 9.44645595550537,
+                "tag": {
+                    "en": "color"
+                }
+            },
+            {
+                "confidence": 9.38290214538574,
+                "tag": {
+                    "en": "industry"
+                }
+            },
+            {
+                "confidence": 9.18101119995117,
+                "tag": {
+                    "en": "wallpaper"
+                }
+            },
+            {
+                "confidence": 8.82174491882324,
+                "tag": {
+                    "en": "brown"
+                }
+            },
+            {
+                "confidence": 8.67144203186035,
+                "tag": {
+                    "en": "paper"
+                }
+            },
+            {
+                "confidence": 8.66594219207764,
+                "tag": {
+                    "en": "water"
+                }
+            },
+            {
+                "confidence": 8.64523601531982,
+                "tag": {
+                    "en": "antique"
+                }
+            },
+            {
+                "confidence": 8.4498872756958,
+                "tag": {
+                    "en": "art"
+                }
+            },
+            {
+                "confidence": 8.36063003540039,
+                "tag": {
+                    "en": "floor"
+                }
+            },
+            {
+                "confidence": 8.33269214630127,
+                "tag": {
+                    "en": "wood"
+                }
+            },
+            {
+                "confidence": 8.18368816375732,
+                "tag": {
+                    "en": "retro"
+                }
+            },
+            {
+                "confidence": 8.09106922149658,
+                "tag": {
+                    "en": "new"
+                }
+            },
+            {
+                "confidence": 8.01696109771729,
+                "tag": {
+                    "en": "graphic"
+                }
+            },
+            {
+                "confidence": 7.95413017272949,
+                "tag": {
+                    "en": "interior"
+                }
+            },
+            {
+                "confidence": 7.76817464828491,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 7.6798882484436,
+                "tag": {
+                    "en": "iron"
+                }
+            },
+            {
+                "confidence": 7.4356164932251,
+                "tag": {
+                    "en": "vintage"
+                }
+            },
+            {
+                "confidence": 7.41332483291626,
+                "tag": {
+                    "en": "technology"
+                }
+            },
+            {
+                "confidence": 7.40308046340942,
+                "tag": {
+                    "en": "closeup"
+                }
+            },
+            {
+                "confidence": 7.14017629623413,
+                "tag": {
+                    "en": "cable"
+                }
+            },
+            {
+                "confidence": 7.05198001861572,
+                "tag": {
+                    "en": "surface"
+                }
+            },
+            {
+                "confidence": 7.02542352676392,
+                "tag": {
+                    "en": "wooden"
+                }
+            },
+            {
+                "confidence": 7.00442504882812,
+                "tag": {
+                    "en": "modern"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

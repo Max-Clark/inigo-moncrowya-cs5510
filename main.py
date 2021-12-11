@@ -1,4 +1,4 @@
-# from picamera import PiCamera
+from picamera import PiCamera
 import pigpio
 import cv2
 import time
@@ -38,6 +38,16 @@ def getPicture():
     return analyze_images()
 
 
+def takeProgressPicture(i):
+    cam = cv2.VideoCapture(0)
+
+    ret, frame = cam.read()
+
+    cv2.imwrite(f'pictures/{i}.png', frame)
+    cam.release()
+    cv2.destroyAllWindows()
+
+
 def cropPicture():
     img = cv2.imread("snapshot.jpg")
     cropped_image = img[1250:2000, 820:2460]
@@ -62,12 +72,16 @@ def getDistance():
 
 def main():
 
+    i = 0
+
     attemptsToMove = 0    
     distanceTravelled = 0
     motor_init()
     try:
         while True:
             distance = getDistance()
+            takeProgressPicture(i)
+            i += 1
             print(f"Distance: {distance}")
             
             if distance > 1:
@@ -96,6 +110,7 @@ def main():
 
             else:
                 personDetected = getPicture()
+                print(personDetected)
                 if not personDetected:
                     croppedImage = cropPicture()
                     objectWidth = getObjectWidth(distance, croppedImage)
@@ -125,8 +140,8 @@ def main():
                 else:
                     # Dance dance dance forever.
                     while True:
-                        spin_right(2)
-                        spin_left(2)
+                        spin_right(2.5)
+                        spin_left(2.5)
 
 
     except KeyboardInterrupt:
