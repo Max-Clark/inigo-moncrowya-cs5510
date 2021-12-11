@@ -207,47 +207,47 @@ def brake(delaytime):
     time.sleep(delaytime)
 
 
+if __name__ == "__main__":
+    #Delay 2s
 
-#Delay 2s
-
-time.sleep(2)
+    time.sleep(2)
 
 
 
-#The try/except statement is used to detect errors in the try block.
+    #The try/except statement is used to detect errors in the try block.
 
-#the except statement catches the exception information and processes it.
+    #the except statement catches the exception information and processes it.
 
-#The robot car advance 1s，back 1s，turn left 2s，turn right 2s，turn left  in place 3s
+    #The robot car advance 1s，back 1s，turn left 2s，turn right 2s，turn left  in place 3s
 
-#turn right  in place 3s，stop 1s。
+    #turn right  in place 3s，stop 1s。
 
-try:
+    try:
 
-    motor_init()
+        motor_init()
 
-    time.sleep(5)
+        time.sleep(5)
 
-    # back(1)
+        # back(1)
 
-    # left(2)
+        # left(2)
 
-    # right(2)
+        # right(2)
 
-    spin_left(3)
+        spin_left(3)
 
-    spin_right(3)
+        spin_right(3)
 
-    brake(1)
+        brake(1)
 
-except KeyboardInterrupt:
+    except KeyboardInterrupt:
 
-    pass
+        pass
 
-pwm_ENA.stop()
+    pwm_ENA.stop()
 
-pwm_ENB.stop()
+    pwm_ENB.stop()
 
-GPIO.cleanup()
+    GPIO.cleanup()
 
 
