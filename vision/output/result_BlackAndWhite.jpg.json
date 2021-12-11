@@ -1,0 +1,310 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 92.4796981811523,
+                "tag": {
+                    "en": "grand piano"
+                }
+            },
+            {
+                "confidence": 75.1567687988281,
+                "tag": {
+                    "en": "piano"
+                }
+            },
+            {
+                "confidence": 57.9840850830078,
+                "tag": {
+                    "en": "percussion instrument"
+                }
+            },
+            {
+                "confidence": 56.5886077880859,
+                "tag": {
+                    "en": "stringed instrument"
+                }
+            },
+            {
+                "confidence": 56.3532028198242,
+                "tag": {
+                    "en": "keyboard instrument"
+                }
+            },
+            {
+                "confidence": 39.1634750366211,
+                "tag": {
+                    "en": "musical instrument"
+                }
+            },
+            {
+                "confidence": 29.7982082366943,
+                "tag": {
+                    "en": "silhouette"
+                }
+            },
+            {
+                "confidence": 20.1580791473389,
+                "tag": {
+                    "en": "man"
+                }
+            },
+            {
+                "confidence": 18.4415264129639,
+                "tag": {
+                    "en": "chair"
+                }
+            },
+            {
+                "confidence": 18.439640045166,
+                "tag": {
+                    "en": "male"
+                }
+            },
+            {
+                "confidence": 15.061466217041,
+                "tag": {
+                    "en": "snow"
+                }
+            },
+            {
+                "confidence": 15.0601034164429,
+                "tag": {
+                    "en": "people"
+                }
+            },
+            {
+                "confidence": 14.239706993103,
+                "tag": {
+                    "en": "horse"
+                }
+            },
+            {
+                "confidence": 13.6134252548218,
+                "tag": {
+                    "en": "winter"
+                }
+            },
+            {
+                "confidence": 13.2205581665039,
+                "tag": {
+                    "en": "black"
+                }
+            },
+            {
+                "confidence": 12.8826284408569,
+                "tag": {
+                    "en": "sitting"
+                }
+            },
+            {
+                "confidence": 12.7551860809326,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 12.4467582702637,
+                "tag": {
+                    "en": "cart"
+                }
+            },
+            {
+                "confidence": 12.0510444641113,
+                "tag": {
+                    "en": "cold"
+                }
+            },
+            {
+                "confidence": 11.6409044265747,
+                "tag": {
+                    "en": "adult"
+                }
+            },
+            {
+                "confidence": 11.597186088562,
+                "tag": {
+                    "en": "sky"
+                }
+            },
+            {
+                "confidence": 11.4540214538574,
+                "tag": {
+                    "en": "stretcher"
+                }
+            },
+            {
+                "confidence": 11.156120300293,
+                "tag": {
+                    "en": "landscape"
+                }
+            },
+            {
+                "confidence": 10.7300510406494,
+                "tag": {
+                    "en": "person"
+                }
+            },
+            {
+                "confidence": 10.0925645828247,
+                "tag": {
+                    "en": "shopping"
+                }
+            },
+            {
+                "confidence": 9.93665981292725,
+                "tag": {
+                    "en": "outdoor"
+                }
+            },
+            {
+                "confidence": 9.93315982818604,
+                "tag": {
+                    "en": "animal"
+                }
+            },
+            {
+                "confidence": 9.9007396697998,
+                "tag": {
+                    "en": "bench"
+                }
+            },
+            {
+                "confidence": 9.67991828918457,
+                "tag": {
+                    "en": "conveyance"
+                }
+            },
+            {
+                "confidence": 9.63803577423096,
+                "tag": {
+                    "en": "office"
+                }
+            },
+            {
+                "confidence": 9.35044574737549,
+                "tag": {
+                    "en": "season"
+                }
+            },
+            {
+                "confidence": 9.14232921600342,
+                "tag": {
+                    "en": "litter"
+                }
+            },
+            {
+                "confidence": 8.99804401397705,
+                "tag": {
+                    "en": "suit"
+                }
+            },
+            {
+                "confidence": 8.828688621521,
+                "tag": {
+                    "en": "businessman"
+                }
+            },
+            {
+                "confidence": 8.50833225250244,
+                "tag": {
+                    "en": "sit"
+                }
+            },
+            {
+                "confidence": 8.42291736602783,
+                "tag": {
+                    "en": "relax"
+                }
+            },
+            {
+                "confidence": 8.08775424957275,
+                "tag": {
+                    "en": "sunset"
+                }
+            },
+            {
+                "confidence": 8.04743480682373,
+                "tag": {
+                    "en": "success"
+                }
+            },
+            {
+                "confidence": 7.88357353210449,
+                "tag": {
+                    "en": "holiday"
+                }
+            },
+            {
+                "confidence": 7.87665700912476,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 7.84849214553833,
+                "tag": {
+                    "en": "work"
+                }
+            },
+            {
+                "confidence": 7.80330896377563,
+                "tag": {
+                    "en": "riding"
+                }
+            },
+            {
+                "confidence": 7.74532222747803,
+                "tag": {
+                    "en": "travel"
+                }
+            },
+            {
+                "confidence": 7.74177074432373,
+                "tag": {
+                    "en": "3d"
+                }
+            },
+            {
+                "confidence": 7.72662782669067,
+                "tag": {
+                    "en": "men"
+                }
+            },
+            {
+                "confidence": 7.49865865707397,
+                "tag": {
+                    "en": "human"
+                }
+            },
+            {
+                "confidence": 7.4655590057373,
+                "tag": {
+                    "en": "one"
+                }
+            },
+            {
+                "confidence": 7.46237659454346,
+                "tag": {
+                    "en": "outdoors"
+                }
+            },
+            {
+                "confidence": 7.38867855072021,
+                "tag": {
+                    "en": "furniture"
+                }
+            },
+            {
+                "confidence": 7.17764806747437,
+                "tag": {
+                    "en": "celebration"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

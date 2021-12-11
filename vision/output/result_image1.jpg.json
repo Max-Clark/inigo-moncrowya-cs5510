@@ -1,0 +1,574 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 66.6473007202148,
+                "tag": {
+                    "en": "room"
+                }
+            },
+            {
+                "confidence": 66.3002395629883,
+                "tag": {
+                    "en": "furniture"
+                }
+            },
+            {
+                "confidence": 61.9082183837891,
+                "tag": {
+                    "en": "interior"
+                }
+            },
+            {
+                "confidence": 55.0321502685547,
+                "tag": {
+                    "en": "chair"
+                }
+            },
+            {
+                "confidence": 49.2665672302246,
+                "tag": {
+                    "en": "table"
+                }
+            },
+            {
+                "confidence": 39.268627166748,
+                "tag": {
+                    "en": "house"
+                }
+            },
+            {
+                "confidence": 39.0753974914551,
+                "tag": {
+                    "en": "home"
+                }
+            },
+            {
+                "confidence": 38.5522804260254,
+                "tag": {
+                    "en": "modern"
+                }
+            },
+            {
+                "confidence": 33.470832824707,
+                "tag": {
+                    "en": "floor"
+                }
+            },
+            {
+                "confidence": 33.3844451904297,
+                "tag": {
+                    "en": "indoors"
+                }
+            },
+            {
+                "confidence": 32.520450592041,
+                "tag": {
+                    "en": "wood"
+                }
+            },
+            {
+                "confidence": 31.311243057251,
+                "tag": {
+                    "en": "seat"
+                }
+            },
+            {
+                "confidence": 29.8210678100586,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 28.4117240905762,
+                "tag": {
+                    "en": "desk"
+                }
+            },
+            {
+                "confidence": 28.0443058013916,
+                "tag": {
+                    "en": "lamp"
+                }
+            },
+            {
+                "confidence": 26.7014045715332,
+                "tag": {
+                    "en": "window"
+                }
+            },
+            {
+                "confidence": 26.5239505767822,
+                "tag": {
+                    "en": "decor"
+                }
+            },
+            {
+                "confidence": 26.0634384155273,
+                "tag": {
+                    "en": "light"
+                }
+            },
+            {
+                "confidence": 23.1509189605713,
+                "tag": {
+                    "en": "luxury"
+                }
+            },
+            {
+                "confidence": 22.8148498535156,
+                "tag": {
+                    "en": "office"
+                }
+            },
+            {
+                "confidence": 22.0297222137451,
+                "tag": {
+                    "en": "apartment"
+                }
+            },
+            {
+                "confidence": 22.0198574066162,
+                "tag": {
+                    "en": "residential"
+                }
+            },
+            {
+                "confidence": 21.9614124298096,
+                "tag": {
+                    "en": "comfortable"
+                }
+            },
+            {
+                "confidence": 21.2334899902344,
+                "tag": {
+                    "en": "wall"
+                }
+            },
+            {
+                "confidence": 20.3892269134521,
+                "tag": {
+                    "en": "kitchen"
+                }
+            },
+            {
+                "confidence": 18.400484085083,
+                "tag": {
+                    "en": "inside"
+                }
+            },
+            {
+                "confidence": 16.9992790222168,
+                "tag": {
+                    "en": "device"
+                }
+            },
+            {
+                "confidence": 16.7929229736328,
+                "tag": {
+                    "en": "elegance"
+                }
+            },
+            {
+                "confidence": 16.6302471160889,
+                "tag": {
+                    "en": "bedroom"
+                }
+            },
+            {
+                "confidence": 16.4020099639893,
+                "tag": {
+                    "en": "architecture"
+                }
+            },
+            {
+                "confidence": 16.0028343200684,
+                "tag": {
+                    "en": "relax"
+                }
+            },
+            {
+                "confidence": 15.5731315612793,
+                "tag": {
+                    "en": "style"
+                }
+            },
+            {
+                "confidence": 15.4618282318115,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 14.9149074554443,
+                "tag": {
+                    "en": "furnishing"
+                }
+            },
+            {
+                "confidence": 14.6631050109863,
+                "tag": {
+                    "en": "equipment"
+                }
+            },
+            {
+                "confidence": 14.6252574920654,
+                "tag": {
+                    "en": "sofa"
+                }
+            },
+            {
+                "confidence": 14.49693775177,
+                "tag": {
+                    "en": "rest"
+                }
+            },
+            {
+                "confidence": 14.4704923629761,
+                "tag": {
+                    "en": "decoration"
+                }
+            },
+            {
+                "confidence": 14.4642763137817,
+                "tag": {
+                    "en": "domestic"
+                }
+            },
+            {
+                "confidence": 14.4330615997314,
+                "tag": {
+                    "en": "cabinet"
+                }
+            },
+            {
+                "confidence": 14.3992328643799,
+                "tag": {
+                    "en": "computer"
+                }
+            },
+            {
+                "confidence": 14.19482421875,
+                "tag": {
+                    "en": "clean"
+                }
+            },
+            {
+                "confidence": 13.9958600997925,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 13.3978872299194,
+                "tag": {
+                    "en": "relaxation"
+                }
+            },
+            {
+                "confidence": 13.2656764984131,
+                "tag": {
+                    "en": "living"
+                }
+            },
+            {
+                "confidence": 13.2270822525024,
+                "tag": {
+                    "en": "glass"
+                }
+            },
+            {
+                "confidence": 13.180534362793,
+                "tag": {
+                    "en": "wooden"
+                }
+            },
+            {
+                "confidence": 12.740309715271,
+                "tag": {
+                    "en": "sink"
+                }
+            },
+            {
+                "confidence": 12.6304368972778,
+                "tag": {
+                    "en": "pillow"
+                }
+            },
+            {
+                "confidence": 12.5736684799194,
+                "tag": {
+                    "en": "vase"
+                }
+            },
+            {
+                "confidence": 12.4083919525146,
+                "tag": {
+                    "en": "hotel"
+                }
+            },
+            {
+                "confidence": 12.3725519180298,
+                "tag": {
+                    "en": "mirror"
+                }
+            },
+            {
+                "confidence": 11.9500455856323,
+                "tag": {
+                    "en": "armchair"
+                }
+            },
+            {
+                "confidence": 11.6172723770142,
+                "tag": {
+                    "en": "3d"
+                }
+            },
+            {
+                "confidence": 11.5947780609131,
+                "tag": {
+                    "en": "shelf"
+                }
+            },
+            {
+                "confidence": 11.5399122238159,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 11.3844289779663,
+                "tag": {
+                    "en": "bed"
+                }
+            },
+            {
+                "confidence": 11.2259922027588,
+                "tag": {
+                    "en": "stove"
+                }
+            },
+            {
+                "confidence": 10.8499269485474,
+                "tag": {
+                    "en": "appliance"
+                }
+            },
+            {
+                "confidence": 10.7725887298584,
+                "tag": {
+                    "en": "chairs"
+                }
+            },
+            {
+                "confidence": 10.6978101730347,
+                "tag": {
+                    "en": "carpet"
+                }
+            },
+            {
+                "confidence": 10.6058435440063,
+                "tag": {
+                    "en": "working"
+                }
+            },
+            {
+                "confidence": 10.341739654541,
+                "tag": {
+                    "en": "contemporary"
+                }
+            },
+            {
+                "confidence": 10.2398281097412,
+                "tag": {
+                    "en": "file"
+                }
+            },
+            {
+                "confidence": 10.1224794387817,
+                "tag": {
+                    "en": "monitor"
+                }
+            },
+            {
+                "confidence": 10.1164464950562,
+                "tag": {
+                    "en": "lifestyle"
+                }
+            },
+            {
+                "confidence": 10.042085647583,
+                "tag": {
+                    "en": "indoor"
+                }
+            },
+            {
+                "confidence": 9.65907573699951,
+                "tag": {
+                    "en": "lighting"
+                }
+            },
+            {
+                "confidence": 9.47237777709961,
+                "tag": {
+                    "en": "work"
+                }
+            },
+            {
+                "confidence": 9.01237106323242,
+                "tag": {
+                    "en": "support"
+                }
+            },
+            {
+                "confidence": 8.86882019042969,
+                "tag": {
+                    "en": "suite"
+                }
+            },
+            {
+                "confidence": 8.76782035827637,
+                "tag": {
+                    "en": "sleeping"
+                }
+            },
+            {
+                "confidence": 8.65605545043945,
+                "tag": {
+                    "en": "bookcase"
+                }
+            },
+            {
+                "confidence": 8.65339374542236,
+                "tag": {
+                    "en": "structure"
+                }
+            },
+            {
+                "confidence": 8.64978408813477,
+                "tag": {
+                    "en": "render"
+                }
+            },
+            {
+                "confidence": 8.64101409912109,
+                "tag": {
+                    "en": "counter"
+                }
+            },
+            {
+                "confidence": 8.54687881469727,
+                "tag": {
+                    "en": "estate"
+                }
+            },
+            {
+                "confidence": 8.49014472961426,
+                "tag": {
+                    "en": "professional"
+                }
+            },
+            {
+                "confidence": 8.37093162536621,
+                "tag": {
+                    "en": "display"
+                }
+            },
+            {
+                "confidence": 8.0944242477417,
+                "tag": {
+                    "en": "brown"
+                }
+            },
+            {
+                "confidence": 7.87435913085938,
+                "tag": {
+                    "en": "faucet"
+                }
+            },
+            {
+                "confidence": 7.87111949920654,
+                "tag": {
+                    "en": "bathroom"
+                }
+            },
+            {
+                "confidence": 7.78224182128906,
+                "tag": {
+                    "en": "residence"
+                }
+            },
+            {
+                "confidence": 7.76893758773804,
+                "tag": {
+                    "en": "decorating"
+                }
+            },
+            {
+                "confidence": 7.76167678833008,
+                "tag": {
+                    "en": "tile"
+                }
+            },
+            {
+                "confidence": 7.75732898712158,
+                "tag": {
+                    "en": "space"
+                }
+            },
+            {
+                "confidence": 7.71384143829346,
+                "tag": {
+                    "en": "comfort"
+                }
+            },
+            {
+                "confidence": 7.6073784828186,
+                "tag": {
+                    "en": "dining"
+                }
+            },
+            {
+                "confidence": 7.59146022796631,
+                "tag": {
+                    "en": "real"
+                }
+            },
+            {
+                "confidence": 7.4633617401123,
+                "tag": {
+                    "en": "plant"
+                }
+            },
+            {
+                "confidence": 7.33255958557129,
+                "tag": {
+                    "en": "alcove"
+                }
+            },
+            {
+                "confidence": 7.32295942306519,
+                "tag": {
+                    "en": "book"
+                }
+            },
+            {
+                "confidence": 7.28764677047729,
+                "tag": {
+                    "en": "new"
+                }
+            },
+            {
+                "confidence": 7.1370906829834,
+                "tag": {
+                    "en": "barber chair"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

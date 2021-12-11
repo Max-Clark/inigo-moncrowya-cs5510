@@ -1,0 +1,328 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 30.6955242156982,
+                "tag": {
+                    "en": "silhouette"
+                }
+            },
+            {
+                "confidence": 25.8192157745361,
+                "tag": {
+                    "en": "art"
+                }
+            },
+            {
+                "confidence": 25.0284576416016,
+                "tag": {
+                    "en": "cartoon"
+                }
+            },
+            {
+                "confidence": 20.3115997314453,
+                "tag": {
+                    "en": "man"
+                }
+            },
+            {
+                "confidence": 17.9888172149658,
+                "tag": {
+                    "en": "drawing"
+                }
+            },
+            {
+                "confidence": 16.9193725585938,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 16.0814018249512,
+                "tag": {
+                    "en": "map"
+                }
+            },
+            {
+                "confidence": 15.0950918197632,
+                "tag": {
+                    "en": "people"
+                }
+            },
+            {
+                "confidence": 14.1245079040527,
+                "tag": {
+                    "en": "black"
+                }
+            },
+            {
+                "confidence": 13.5088500976562,
+                "tag": {
+                    "en": "male"
+                }
+            },
+            {
+                "confidence": 13.1614093780518,
+                "tag": {
+                    "en": "graphic"
+                }
+            },
+            {
+                "confidence": 12.8205194473267,
+                "tag": {
+                    "en": "symbol"
+                }
+            },
+            {
+                "confidence": 12.3860530853271,
+                "tag": {
+                    "en": "sport"
+                }
+            },
+            {
+                "confidence": 11.5804395675659,
+                "tag": {
+                    "en": "person"
+                }
+            },
+            {
+                "confidence": 11.2897262573242,
+                "tag": {
+                    "en": "success"
+                }
+            },
+            {
+                "confidence": 11.1447486877441,
+                "tag": {
+                    "en": "clip art"
+                }
+            },
+            {
+                "confidence": 11.0109815597534,
+                "tag": {
+                    "en": "artwork"
+                }
+            },
+            {
+                "confidence": 10.5001783370972,
+                "tag": {
+                    "en": "fun"
+                }
+            },
+            {
+                "confidence": 10.2981615066528,
+                "tag": {
+                    "en": "player"
+                }
+            },
+            {
+                "confidence": 9.77025890350342,
+                "tag": {
+                    "en": "human"
+                }
+            },
+            {
+                "confidence": 9.63078212738037,
+                "tag": {
+                    "en": "ball"
+                }
+            },
+            {
+                "confidence": 9.4202299118042,
+                "tag": {
+                    "en": "graphics"
+                }
+            },
+            {
+                "confidence": 9.13253307342529,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 8.97852325439453,
+                "tag": {
+                    "en": "activity"
+                }
+            },
+            {
+                "confidence": 8.88471126556396,
+                "tag": {
+                    "en": "frame"
+                }
+            },
+            {
+                "confidence": 8.36079692840576,
+                "tag": {
+                    "en": "color"
+                }
+            },
+            {
+                "confidence": 8.16456890106201,
+                "tag": {
+                    "en": "happy"
+                }
+            },
+            {
+                "confidence": 8.14122581481934,
+                "tag": {
+                    "en": "game"
+                }
+            },
+            {
+                "confidence": 8.11498928070068,
+                "tag": {
+                    "en": "star"
+                }
+            },
+            {
+                "confidence": 8.10793018341064,
+                "tag": {
+                    "en": "active"
+                }
+            },
+            {
+                "confidence": 7.99188709259033,
+                "tag": {
+                    "en": "world"
+                }
+            },
+            {
+                "confidence": 7.75423717498779,
+                "tag": {
+                    "en": "party"
+                }
+            },
+            {
+                "confidence": 7.74549531936646,
+                "tag": {
+                    "en": "men"
+                }
+            },
+            {
+                "confidence": 7.74291467666626,
+                "tag": {
+                    "en": "sky"
+                }
+            },
+            {
+                "confidence": 7.72756099700928,
+                "tag": {
+                    "en": "line"
+                }
+            },
+            {
+                "confidence": 7.68057107925415,
+                "tag": {
+                    "en": "grunge"
+                }
+            },
+            {
+                "confidence": 7.67674779891968,
+                "tag": {
+                    "en": "wallpaper"
+                }
+            },
+            {
+                "confidence": 7.67236471176147,
+                "tag": {
+                    "en": "floral"
+                }
+            },
+            {
+                "confidence": 7.56915473937988,
+                "tag": {
+                    "en": "representation"
+                }
+            },
+            {
+                "confidence": 7.53879451751709,
+                "tag": {
+                    "en": "sign"
+                }
+            },
+            {
+                "confidence": 7.53406143188477,
+                "tag": {
+                    "en": "decorative"
+                }
+            },
+            {
+                "confidence": 7.45882129669189,
+                "tag": {
+                    "en": "element"
+                }
+            },
+            {
+                "confidence": 7.42028951644897,
+                "tag": {
+                    "en": "athlete"
+                }
+            },
+            {
+                "confidence": 7.40705156326294,
+                "tag": {
+                    "en": "training"
+                }
+            },
+            {
+                "confidence": 7.33882141113281,
+                "tag": {
+                    "en": "competition"
+                }
+            },
+            {
+                "confidence": 7.31716728210449,
+                "tag": {
+                    "en": "backgrounds"
+                }
+            },
+            {
+                "confidence": 7.2526798248291,
+                "tag": {
+                    "en": "decoration"
+                }
+            },
+            {
+                "confidence": 7.24111557006836,
+                "tag": {
+                    "en": "painting"
+                }
+            },
+            {
+                "confidence": 7.18688678741455,
+                "tag": {
+                    "en": "recreation"
+                }
+            },
+            {
+                "confidence": 7.1406397819519,
+                "tag": {
+                    "en": "icon"
+                }
+            },
+            {
+                "confidence": 7.12081480026245,
+                "tag": {
+                    "en": "night"
+                }
+            },
+            {
+                "confidence": 7.07611703872681,
+                "tag": {
+                    "en": "creative"
+                }
+            },
+            {
+                "confidence": 7.06825685501099,
+                "tag": {
+                    "en": "body of water"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

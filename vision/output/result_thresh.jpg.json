@@ -1,0 +1,244 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 35.658618927002,
+                "tag": {
+                    "en": "silhouette"
+                }
+            },
+            {
+                "confidence": 21.1833515167236,
+                "tag": {
+                    "en": "map"
+                }
+            },
+            {
+                "confidence": 19.7805614471436,
+                "tag": {
+                    "en": "art"
+                }
+            },
+            {
+                "confidence": 17.8688983917236,
+                "tag": {
+                    "en": "cartoon"
+                }
+            },
+            {
+                "confidence": 16.3491439819336,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 16.0815658569336,
+                "tag": {
+                    "en": "graphic"
+                }
+            },
+            {
+                "confidence": 15.5804319381714,
+                "tag": {
+                    "en": "man"
+                }
+            },
+            {
+                "confidence": 13.4118900299072,
+                "tag": {
+                    "en": "people"
+                }
+            },
+            {
+                "confidence": 12.8849306106567,
+                "tag": {
+                    "en": "sky"
+                }
+            },
+            {
+                "confidence": 12.7918615341187,
+                "tag": {
+                    "en": "black"
+                }
+            },
+            {
+                "confidence": 12.2108297348022,
+                "tag": {
+                    "en": "tracing"
+                }
+            },
+            {
+                "confidence": 10.8753547668457,
+                "tag": {
+                    "en": "moon"
+                }
+            },
+            {
+                "confidence": 10.5817108154297,
+                "tag": {
+                    "en": "travel"
+                }
+            },
+            {
+                "confidence": 10.3461685180664,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 9.95404815673828,
+                "tag": {
+                    "en": "painting"
+                }
+            },
+            {
+                "confidence": 9.94857883453369,
+                "tag": {
+                    "en": "male"
+                }
+            },
+            {
+                "confidence": 9.78849411010742,
+                "tag": {
+                    "en": "night"
+                }
+            },
+            {
+                "confidence": 9.77288055419922,
+                "tag": {
+                    "en": "drawing"
+                }
+            },
+            {
+                "confidence": 9.48491859436035,
+                "tag": {
+                    "en": "outline"
+                }
+            },
+            {
+                "confidence": 9.44393539428711,
+                "tag": {
+                    "en": "symbol"
+                }
+            },
+            {
+                "confidence": 9.13415241241455,
+                "tag": {
+                    "en": "hat"
+                }
+            },
+            {
+                "confidence": 8.53123474121094,
+                "tag": {
+                    "en": "grunge"
+                }
+            },
+            {
+                "confidence": 8.12756156921387,
+                "tag": {
+                    "en": "backgrounds"
+                }
+            },
+            {
+                "confidence": 8.1126127243042,
+                "tag": {
+                    "en": "star"
+                }
+            },
+            {
+                "confidence": 8.06140422821045,
+                "tag": {
+                    "en": "success"
+                }
+            },
+            {
+                "confidence": 7.98922538757324,
+                "tag": {
+                    "en": "world"
+                }
+            },
+            {
+                "confidence": 7.9383807182312,
+                "tag": {
+                    "en": "frame"
+                }
+            },
+            {
+                "confidence": 7.67386054992676,
+                "tag": {
+                    "en": "winter"
+                }
+            },
+            {
+                "confidence": 7.66008424758911,
+                "tag": {
+                    "en": "country"
+                }
+            },
+            {
+                "confidence": 7.58343601226807,
+                "tag": {
+                    "en": "flying"
+                }
+            },
+            {
+                "confidence": 7.53719806671143,
+                "tag": {
+                    "en": "house"
+                }
+            },
+            {
+                "confidence": 7.45265293121338,
+                "tag": {
+                    "en": "landscape"
+                }
+            },
+            {
+                "confidence": 7.42830419540405,
+                "tag": {
+                    "en": "sport"
+                }
+            },
+            {
+                "confidence": 7.24426651000977,
+                "tag": {
+                    "en": "color"
+                }
+            },
+            {
+                "confidence": 7.18065166473389,
+                "tag": {
+                    "en": "activity"
+                }
+            },
+            {
+                "confidence": 7.17905139923096,
+                "tag": {
+                    "en": "holiday"
+                }
+            },
+            {
+                "confidence": 7.1660213470459,
+                "tag": {
+                    "en": "snow"
+                }
+            },
+            {
+                "confidence": 7.13042545318604,
+                "tag": {
+                    "en": "women"
+                }
+            },
+            {
+                "confidence": 7.0242166519165,
+                "tag": {
+                    "en": "modern"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

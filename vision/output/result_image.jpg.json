@@ -1,0 +1,418 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 50.713939666748,
+                "tag": {
+                    "en": "container"
+                }
+            },
+            {
+                "confidence": 39.0932273864746,
+                "tag": {
+                    "en": "ashcan"
+                }
+            },
+            {
+                "confidence": 37.9845352172852,
+                "tag": {
+                    "en": "bin"
+                }
+            },
+            {
+                "confidence": 35.5188865661621,
+                "tag": {
+                    "en": "rain barrel"
+                }
+            },
+            {
+                "confidence": 27.6033992767334,
+                "tag": {
+                    "en": "cistern"
+                }
+            },
+            {
+                "confidence": 25.3568954467773,
+                "tag": {
+                    "en": "device"
+                }
+            },
+            {
+                "confidence": 22.1854248046875,
+                "tag": {
+                    "en": "shredder"
+                }
+            },
+            {
+                "confidence": 20.6486377716064,
+                "tag": {
+                    "en": "reservoir"
+                }
+            },
+            {
+                "confidence": 20.0974636077881,
+                "tag": {
+                    "en": "pool"
+                }
+            },
+            {
+                "confidence": 16.4986629486084,
+                "tag": {
+                    "en": "tank"
+                }
+            },
+            {
+                "confidence": 15.6821660995483,
+                "tag": {
+                    "en": "vessel"
+                }
+            },
+            {
+                "confidence": 15.0194206237793,
+                "tag": {
+                    "en": "interior"
+                }
+            },
+            {
+                "confidence": 14.8402471542358,
+                "tag": {
+                    "en": "computer"
+                }
+            },
+            {
+                "confidence": 14.632285118103,
+                "tag": {
+                    "en": "office"
+                }
+            },
+            {
+                "confidence": 13.6851081848145,
+                "tag": {
+                    "en": "garbage"
+                }
+            },
+            {
+                "confidence": 13.5455102920532,
+                "tag": {
+                    "en": "home"
+                }
+            },
+            {
+                "confidence": 12.9250001907349,
+                "tag": {
+                    "en": "basket"
+                }
+            },
+            {
+                "confidence": 12.8603630065918,
+                "tag": {
+                    "en": "metal"
+                }
+            },
+            {
+                "confidence": 12.6023902893066,
+                "tag": {
+                    "en": "modern"
+                }
+            },
+            {
+                "confidence": 12.5432281494141,
+                "tag": {
+                    "en": "work"
+                }
+            },
+            {
+                "confidence": 12.5247087478638,
+                "tag": {
+                    "en": "furniture"
+                }
+            },
+            {
+                "confidence": 12.1615610122681,
+                "tag": {
+                    "en": "equipment"
+                }
+            },
+            {
+                "confidence": 12.1334924697876,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 11.6177196502686,
+                "tag": {
+                    "en": "white goods"
+                }
+            },
+            {
+                "confidence": 11.5301036834717,
+                "tag": {
+                    "en": "home appliance"
+                }
+            },
+            {
+                "confidence": 10.8545846939087,
+                "tag": {
+                    "en": "house"
+                }
+            },
+            {
+                "confidence": 10.757306098938,
+                "tag": {
+                    "en": "trash"
+                }
+            },
+            {
+                "confidence": 10.6808404922485,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 10.5990858078003,
+                "tag": {
+                    "en": "decor"
+                }
+            },
+            {
+                "confidence": 10.5856227874756,
+                "tag": {
+                    "en": "recycle"
+                }
+            },
+            {
+                "confidence": 10.5561418533325,
+                "tag": {
+                    "en": "hamper"
+                }
+            },
+            {
+                "confidence": 10.3796787261963,
+                "tag": {
+                    "en": "technology"
+                }
+            },
+            {
+                "confidence": 10.2572832107544,
+                "tag": {
+                    "en": "room"
+                }
+            },
+            {
+                "confidence": 10.248950958252,
+                "tag": {
+                    "en": "object"
+                }
+            },
+            {
+                "confidence": 10.2061491012573,
+                "tag": {
+                    "en": "black"
+                }
+            },
+            {
+                "confidence": 10.1407356262207,
+                "tag": {
+                    "en": "briefcase"
+                }
+            },
+            {
+                "confidence": 10.1061811447144,
+                "tag": {
+                    "en": "lifestyle"
+                }
+            },
+            {
+                "confidence": 9.91236400604248,
+                "tag": {
+                    "en": "laptop"
+                }
+            },
+            {
+                "confidence": 9.71089267730713,
+                "tag": {
+                    "en": "waste"
+                }
+            },
+            {
+                "confidence": 9.58479404449463,
+                "tag": {
+                    "en": "can"
+                }
+            },
+            {
+                "confidence": 9.53732967376709,
+                "tag": {
+                    "en": "comfortable"
+                }
+            },
+            {
+                "confidence": 9.47208404541016,
+                "tag": {
+                    "en": "people"
+                }
+            },
+            {
+                "confidence": 9.4334192276001,
+                "tag": {
+                    "en": "desk"
+                }
+            },
+            {
+                "confidence": 9.24332141876221,
+                "tag": {
+                    "en": "chair"
+                }
+            },
+            {
+                "confidence": 8.83039474487305,
+                "tag": {
+                    "en": "steel"
+                }
+            },
+            {
+                "confidence": 8.78704166412354,
+                "tag": {
+                    "en": "refrigerator"
+                }
+            },
+            {
+                "confidence": 8.6166467666626,
+                "tag": {
+                    "en": "barrel"
+                }
+            },
+            {
+                "confidence": 8.6117467880249,
+                "tag": {
+                    "en": "apartment"
+                }
+            },
+            {
+                "confidence": 8.35843753814697,
+                "tag": {
+                    "en": "floor"
+                }
+            },
+            {
+                "confidence": 8.3277645111084,
+                "tag": {
+                    "en": "wood"
+                }
+            },
+            {
+                "confidence": 8.1406364440918,
+                "tag": {
+                    "en": "student"
+                }
+            },
+            {
+                "confidence": 8.05534648895264,
+                "tag": {
+                    "en": "man"
+                }
+            },
+            {
+                "confidence": 7.92661285400391,
+                "tag": {
+                    "en": "appliance"
+                }
+            },
+            {
+                "confidence": 7.8017692565918,
+                "tag": {
+                    "en": "architecture"
+                }
+            },
+            {
+                "confidence": 7.77854013442993,
+                "tag": {
+                    "en": "table"
+                }
+            },
+            {
+                "confidence": 7.7647557258606,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 7.72828578948975,
+                "tag": {
+                    "en": "recycling"
+                }
+            },
+            {
+                "confidence": 7.7225923538208,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 7.67728424072266,
+                "tag": {
+                    "en": "industry"
+                }
+            },
+            {
+                "confidence": 7.67193746566772,
+                "tag": {
+                    "en": "person"
+                }
+            },
+            {
+                "confidence": 7.58526754379272,
+                "tag": {
+                    "en": "leather"
+                }
+            },
+            {
+                "confidence": 7.35377502441406,
+                "tag": {
+                    "en": "inside"
+                }
+            },
+            {
+                "confidence": 7.26201725006104,
+                "tag": {
+                    "en": "bucket"
+                }
+            },
+            {
+                "confidence": 7.22583150863647,
+                "tag": {
+                    "en": "smiling"
+                }
+            },
+            {
+                "confidence": 7.11883449554443,
+                "tag": {
+                    "en": "smile"
+                }
+            },
+            {
+                "confidence": 7.07490634918213,
+                "tag": {
+                    "en": "information"
+                }
+            },
+            {
+                "confidence": 7.06396150588989,
+                "tag": {
+                    "en": "silver"
+                }
+            },
+            {
+                "confidence": 7.0208797454834,
+                "tag": {
+                    "en": "indoors"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

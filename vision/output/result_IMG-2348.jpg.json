@@ -1,0 +1,556 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 89.4757614135742,
+                "tag": {
+                    "en": "seat"
+                }
+            },
+            {
+                "confidence": 87.3011245727539,
+                "tag": {
+                    "en": "furniture"
+                }
+            },
+            {
+                "confidence": 86.8264617919922,
+                "tag": {
+                    "en": "chair"
+                }
+            },
+            {
+                "confidence": 51.3452644348145,
+                "tag": {
+                    "en": "table"
+                }
+            },
+            {
+                "confidence": 46.2516403198242,
+                "tag": {
+                    "en": "room"
+                }
+            },
+            {
+                "confidence": 45.9603881835938,
+                "tag": {
+                    "en": "interior"
+                }
+            },
+            {
+                "confidence": 39.7302207946777,
+                "tag": {
+                    "en": "ottoman"
+                }
+            },
+            {
+                "confidence": 31.7704181671143,
+                "tag": {
+                    "en": "furnishing"
+                }
+            },
+            {
+                "confidence": 26.6197414398193,
+                "tag": {
+                    "en": "modern"
+                }
+            },
+            {
+                "confidence": 24.7431888580322,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 24.1567535400391,
+                "tag": {
+                    "en": "floor"
+                }
+            },
+            {
+                "confidence": 24.0291061401367,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 23.9100875854492,
+                "tag": {
+                    "en": "home"
+                }
+            },
+            {
+                "confidence": 23.5668506622314,
+                "tag": {
+                    "en": "office"
+                }
+            },
+            {
+                "confidence": 23.3813800811768,
+                "tag": {
+                    "en": "house"
+                }
+            },
+            {
+                "confidence": 23.2327499389648,
+                "tag": {
+                    "en": "desk"
+                }
+            },
+            {
+                "confidence": 22.499547958374,
+                "tag": {
+                    "en": "wood"
+                }
+            },
+            {
+                "confidence": 18.5533256530762,
+                "tag": {
+                    "en": "decor"
+                }
+            },
+            {
+                "confidence": 18.4367980957031,
+                "tag": {
+                    "en": "support"
+                }
+            },
+            {
+                "confidence": 18.3098983764648,
+                "tag": {
+                    "en": "window"
+                }
+            },
+            {
+                "confidence": 17.2950210571289,
+                "tag": {
+                    "en": "armchair"
+                }
+            },
+            {
+                "confidence": 17.0491485595703,
+                "tag": {
+                    "en": "style"
+                }
+            },
+            {
+                "confidence": 16.9939613342285,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 16.923641204834,
+                "tag": {
+                    "en": "folding chair"
+                }
+            },
+            {
+                "confidence": 16.6830825805664,
+                "tag": {
+                    "en": "indoors"
+                }
+            },
+            {
+                "confidence": 16.5503177642822,
+                "tag": {
+                    "en": "inside"
+                }
+            },
+            {
+                "confidence": 15.8976440429688,
+                "tag": {
+                    "en": "relaxation"
+                }
+            },
+            {
+                "confidence": 15.509482383728,
+                "tag": {
+                    "en": "indoor"
+                }
+            },
+            {
+                "confidence": 14.6778659820557,
+                "tag": {
+                    "en": "chairs"
+                }
+            },
+            {
+                "confidence": 14.3129720687866,
+                "tag": {
+                    "en": "lamp"
+                }
+            },
+            {
+                "confidence": 14.255654335022,
+                "tag": {
+                    "en": "dining"
+                }
+            },
+            {
+                "confidence": 14.0470151901245,
+                "tag": {
+                    "en": "architecture"
+                }
+            },
+            {
+                "confidence": 13.7102899551392,
+                "tag": {
+                    "en": "luxury"
+                }
+            },
+            {
+                "confidence": 13.4769086837769,
+                "tag": {
+                    "en": "work"
+                }
+            },
+            {
+                "confidence": 13.4038925170898,
+                "tag": {
+                    "en": "apartment"
+                }
+            },
+            {
+                "confidence": 13.3605518341064,
+                "tag": {
+                    "en": "comfortable"
+                }
+            },
+            {
+                "confidence": 13.2602415084839,
+                "tag": {
+                    "en": "device"
+                }
+            },
+            {
+                "confidence": 13.2074356079102,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 12.7719373703003,
+                "tag": {
+                    "en": "rest"
+                }
+            },
+            {
+                "confidence": 12.6248769760132,
+                "tag": {
+                    "en": "relax"
+                }
+            },
+            {
+                "confidence": 12.4424839019775,
+                "tag": {
+                    "en": "glass"
+                }
+            },
+            {
+                "confidence": 12.4371366500854,
+                "tag": {
+                    "en": "residential"
+                }
+            },
+            {
+                "confidence": 12.3738746643066,
+                "tag": {
+                    "en": "stool"
+                }
+            },
+            {
+                "confidence": 12.2910013198853,
+                "tag": {
+                    "en": "decoration"
+                }
+            },
+            {
+                "confidence": 11.9637956619263,
+                "tag": {
+                    "en": "wall"
+                }
+            },
+            {
+                "confidence": 11.7487707138062,
+                "tag": {
+                    "en": "elegance"
+                }
+            },
+            {
+                "confidence": 11.2763013839722,
+                "tag": {
+                    "en": "contemporary"
+                }
+            },
+            {
+                "confidence": 11.1993198394775,
+                "tag": {
+                    "en": "restaurant"
+                }
+            },
+            {
+                "confidence": 11.1561250686646,
+                "tag": {
+                    "en": "sitting"
+                }
+            },
+            {
+                "confidence": 10.6331758499146,
+                "tag": {
+                    "en": "grand piano"
+                }
+            },
+            {
+                "confidence": 10.4562101364136,
+                "tag": {
+                    "en": "success"
+                }
+            },
+            {
+                "confidence": 10.2558870315552,
+                "tag": {
+                    "en": "professional"
+                }
+            },
+            {
+                "confidence": 10.1839208602905,
+                "tag": {
+                    "en": "percussion instrument"
+                }
+            },
+            {
+                "confidence": 10.1492357254028,
+                "tag": {
+                    "en": "piano"
+                }
+            },
+            {
+                "confidence": 10.0721464157104,
+                "tag": {
+                    "en": "man"
+                }
+            },
+            {
+                "confidence": 10.0613632202148,
+                "tag": {
+                    "en": "book"
+                }
+            },
+            {
+                "confidence": 10.0202035903931,
+                "tag": {
+                    "en": "light"
+                }
+            },
+            {
+                "confidence": 9.69291305541992,
+                "tag": {
+                    "en": "computer"
+                }
+            },
+            {
+                "confidence": 9.30517959594727,
+                "tag": {
+                    "en": "manager"
+                }
+            },
+            {
+                "confidence": 9.30244159698486,
+                "tag": {
+                    "en": "equipment"
+                }
+            },
+            {
+                "confidence": 9.1662769317627,
+                "tag": {
+                    "en": "outdoor"
+                }
+            },
+            {
+                "confidence": 8.95022773742676,
+                "tag": {
+                    "en": "plant"
+                }
+            },
+            {
+                "confidence": 8.91704750061035,
+                "tag": {
+                    "en": "people"
+                }
+            },
+            {
+                "confidence": 8.84089374542236,
+                "tag": {
+                    "en": "job"
+                }
+            },
+            {
+                "confidence": 8.80632781982422,
+                "tag": {
+                    "en": "sofa"
+                }
+            },
+            {
+                "confidence": 8.67287445068359,
+                "tag": {
+                    "en": "comfort"
+                }
+            },
+            {
+                "confidence": 8.58565139770508,
+                "tag": {
+                    "en": "hotel"
+                }
+            },
+            {
+                "confidence": 8.53766918182373,
+                "tag": {
+                    "en": "leather"
+                }
+            },
+            {
+                "confidence": 8.51170063018799,
+                "tag": {
+                    "en": "3d"
+                }
+            },
+            {
+                "confidence": 8.50528144836426,
+                "tag": {
+                    "en": "sit"
+                }
+            },
+            {
+                "confidence": 8.37220191955566,
+                "tag": {
+                    "en": "place"
+                }
+            },
+            {
+                "confidence": 8.35626411437988,
+                "tag": {
+                    "en": "stringed instrument"
+                }
+            },
+            {
+                "confidence": 8.34625720977783,
+                "tag": {
+                    "en": "clean"
+                }
+            },
+            {
+                "confidence": 8.10349082946777,
+                "tag": {
+                    "en": "file"
+                }
+            },
+            {
+                "confidence": 7.98592615127563,
+                "tag": {
+                    "en": "keyboard instrument"
+                }
+            },
+            {
+                "confidence": 7.94169139862061,
+                "tag": {
+                    "en": "musical instrument"
+                }
+            },
+            {
+                "confidence": 7.85958528518677,
+                "tag": {
+                    "en": "urban"
+                }
+            },
+            {
+                "confidence": 7.79249858856201,
+                "tag": {
+                    "en": "alcove"
+                }
+            },
+            {
+                "confidence": 7.77963638305664,
+                "tag": {
+                    "en": "folder"
+                }
+            },
+            {
+                "confidence": 7.57387590408325,
+                "tag": {
+                    "en": "living"
+                }
+            },
+            {
+                "confidence": 7.57237195968628,
+                "tag": {
+                    "en": "dinner"
+                }
+            },
+            {
+                "confidence": 7.54198694229126,
+                "tag": {
+                    "en": "eat"
+                }
+            },
+            {
+                "confidence": 7.52912378311157,
+                "tag": {
+                    "en": "meeting"
+                }
+            },
+            {
+                "confidence": 7.40236377716064,
+                "tag": {
+                    "en": "service"
+                }
+            },
+            {
+                "confidence": 7.23579359054565,
+                "tag": {
+                    "en": "tranquil"
+                }
+            },
+            {
+                "confidence": 7.22654867172241,
+                "tag": {
+                    "en": "stylish"
+                }
+            },
+            {
+                "confidence": 7.19024419784546,
+                "tag": {
+                    "en": "hall"
+                }
+            },
+            {
+                "confidence": 7.15071296691895,
+                "tag": {
+                    "en": "kitchen"
+                }
+            },
+            {
+                "confidence": 7.08819103240967,
+                "tag": {
+                    "en": "male"
+                }
+            },
+            {
+                "confidence": 7.06666326522827,
+                "tag": {
+                    "en": "working"
+                }
+            },
+            {
+                "confidence": 7.02521133422852,
+                "tag": {
+                    "en": "wooden"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

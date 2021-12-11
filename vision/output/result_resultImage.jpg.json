@@ -1,0 +1,460 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 25.1730613708496,
+                "tag": {
+                    "en": "device"
+                }
+            },
+            {
+                "confidence": 16.7657604217529,
+                "tag": {
+                    "en": "tool"
+                }
+            },
+            {
+                "confidence": 15.192928314209,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 14.5718536376953,
+                "tag": {
+                    "en": "blank"
+                }
+            },
+            {
+                "confidence": 13.5713233947754,
+                "tag": {
+                    "en": "jet"
+                }
+            },
+            {
+                "confidence": 12.9699020385742,
+                "tag": {
+                    "en": "frame"
+                }
+            },
+            {
+                "confidence": 12.6785287857056,
+                "tag": {
+                    "en": "water"
+                }
+            },
+            {
+                "confidence": 12.4120111465454,
+                "tag": {
+                    "en": "space"
+                }
+            },
+            {
+                "confidence": 12.0252771377563,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 11.7112426757812,
+                "tag": {
+                    "en": "chain saw"
+                }
+            },
+            {
+                "confidence": 11.6747665405273,
+                "tag": {
+                    "en": "graphic"
+                }
+            },
+            {
+                "confidence": 11.4983148574829,
+                "tag": {
+                    "en": "copy"
+                }
+            },
+            {
+                "confidence": 11.3639793395996,
+                "tag": {
+                    "en": "paper"
+                }
+            },
+            {
+                "confidence": 11.1967506408691,
+                "tag": {
+                    "en": "machine"
+                }
+            },
+            {
+                "confidence": 11.1228065490723,
+                "tag": {
+                    "en": "color"
+                }
+            },
+            {
+                "confidence": 11.0982551574707,
+                "tag": {
+                    "en": "saw"
+                }
+            },
+            {
+                "confidence": 10.9919385910034,
+                "tag": {
+                    "en": "speed"
+                }
+            },
+            {
+                "confidence": 10.9334297180176,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 10.7562170028687,
+                "tag": {
+                    "en": "handsaw"
+                }
+            },
+            {
+                "confidence": 10.7165699005127,
+                "tag": {
+                    "en": "backdrop"
+                }
+            },
+            {
+                "confidence": 10.4899787902832,
+                "tag": {
+                    "en": "scale"
+                }
+            },
+            {
+                "confidence": 10.4645290374756,
+                "tag": {
+                    "en": "clear"
+                }
+            },
+            {
+                "confidence": 10.4181575775146,
+                "tag": {
+                    "en": "texture"
+                }
+            },
+            {
+                "confidence": 10.203821182251,
+                "tag": {
+                    "en": "sky"
+                }
+            },
+            {
+                "confidence": 10.0328140258789,
+                "tag": {
+                    "en": "hand tool"
+                }
+            },
+            {
+                "confidence": 9.95624542236328,
+                "tag": {
+                    "en": "wallpaper"
+                }
+            },
+            {
+                "confidence": 9.77970409393311,
+                "tag": {
+                    "en": "power saw"
+                }
+            },
+            {
+                "confidence": 9.77928638458252,
+                "tag": {
+                    "en": "sign"
+                }
+            },
+            {
+                "confidence": 9.7674674987793,
+                "tag": {
+                    "en": "cool"
+                }
+            },
+            {
+                "confidence": 9.73277950286865,
+                "tag": {
+                    "en": "vernier scale"
+                }
+            },
+            {
+                "confidence": 9.63639736175537,
+                "tag": {
+                    "en": "halftone"
+                }
+            },
+            {
+                "confidence": 9.57317733764648,
+                "tag": {
+                    "en": "liquid"
+                }
+            },
+            {
+                "confidence": 9.54236602783203,
+                "tag": {
+                    "en": "mechanical device"
+                }
+            },
+            {
+                "confidence": 9.490966796875,
+                "tag": {
+                    "en": "shiny"
+                }
+            },
+            {
+                "confidence": 9.42077159881592,
+                "tag": {
+                    "en": "art"
+                }
+            },
+            {
+                "confidence": 9.41002464294434,
+                "tag": {
+                    "en": "bubble"
+                }
+            },
+            {
+                "confidence": 9.36659717559814,
+                "tag": {
+                    "en": "grunge"
+                }
+            },
+            {
+                "confidence": 9.2431526184082,
+                "tag": {
+                    "en": "splash"
+                }
+            },
+            {
+                "confidence": 9.20151424407959,
+                "tag": {
+                    "en": "air"
+                }
+            },
+            {
+                "confidence": 9.18910694122314,
+                "tag": {
+                    "en": "siding"
+                }
+            },
+            {
+                "confidence": 9.11401176452637,
+                "tag": {
+                    "en": "modern"
+                }
+            },
+            {
+                "confidence": 8.95811367034912,
+                "tag": {
+                    "en": "aircraft"
+                }
+            },
+            {
+                "confidence": 8.94209480285645,
+                "tag": {
+                    "en": "line"
+                }
+            },
+            {
+                "confidence": 8.85076332092285,
+                "tag": {
+                    "en": "metal"
+                }
+            },
+            {
+                "confidence": 8.69080448150635,
+                "tag": {
+                    "en": "light"
+                }
+            },
+            {
+                "confidence": 8.44902324676514,
+                "tag": {
+                    "en": "finance"
+                }
+            },
+            {
+                "confidence": 8.40777969360352,
+                "tag": {
+                    "en": "energy"
+                }
+            },
+            {
+                "confidence": 8.35205841064453,
+                "tag": {
+                    "en": "clean"
+                }
+            },
+            {
+                "confidence": 8.28877067565918,
+                "tag": {
+                    "en": "metallic"
+                }
+            },
+            {
+                "confidence": 8.23990058898926,
+                "tag": {
+                    "en": "equipment"
+                }
+            },
+            {
+                "confidence": 8.20119762420654,
+                "tag": {
+                    "en": "shape"
+                }
+            },
+            {
+                "confidence": 8.16492748260498,
+                "tag": {
+                    "en": "technology"
+                }
+            },
+            {
+                "confidence": 8.15900135040283,
+                "tag": {
+                    "en": "drop"
+                }
+            },
+            {
+                "confidence": 8.11090660095215,
+                "tag": {
+                    "en": "backgrounds"
+                }
+            },
+            {
+                "confidence": 8.09566497802734,
+                "tag": {
+                    "en": "new"
+                }
+            },
+            {
+                "confidence": 7.88244295120239,
+                "tag": {
+                    "en": "holiday"
+                }
+            },
+            {
+                "confidence": 7.77252864837646,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 7.73746156692505,
+                "tag": {
+                    "en": "plane"
+                }
+            },
+            {
+                "confidence": 7.67699956893921,
+                "tag": {
+                    "en": "flight"
+                }
+            },
+            {
+                "confidence": 7.67640018463135,
+                "tag": {
+                    "en": "advertising"
+                }
+            },
+            {
+                "confidence": 7.63637351989746,
+                "tag": {
+                    "en": "ripple"
+                }
+            },
+            {
+                "confidence": 7.58713579177856,
+                "tag": {
+                    "en": "bubbles"
+                }
+            },
+            {
+                "confidence": 7.58709287643433,
+                "tag": {
+                    "en": "wing"
+                }
+            },
+            {
+                "confidence": 7.55617618560791,
+                "tag": {
+                    "en": "mechanism"
+                }
+            },
+            {
+                "confidence": 7.54552173614502,
+                "tag": {
+                    "en": "drops"
+                }
+            },
+            {
+                "confidence": 7.52532148361206,
+                "tag": {
+                    "en": "building material"
+                }
+            },
+            {
+                "confidence": 7.52115392684937,
+                "tag": {
+                    "en": "pattern"
+                }
+            },
+            {
+                "confidence": 7.51791334152222,
+                "tag": {
+                    "en": "drink"
+                }
+            },
+            {
+                "confidence": 7.46771287918091,
+                "tag": {
+                    "en": "power tool"
+                }
+            },
+            {
+                "confidence": 7.40648698806763,
+                "tag": {
+                    "en": "symbol"
+                }
+            },
+            {
+                "confidence": 7.35187149047852,
+                "tag": {
+                    "en": "banner"
+                }
+            },
+            {
+                "confidence": 7.35093641281128,
+                "tag": {
+                    "en": "note"
+                }
+            },
+            {
+                "confidence": 7.30791902542114,
+                "tag": {
+                    "en": "card"
+                }
+            },
+            {
+                "confidence": 7.30601692199707,
+                "tag": {
+                    "en": "message"
+                }
+            },
+            {
+                "confidence": 7.03305530548096,
+                "tag": {
+                    "en": "life"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

@@ -1,0 +1,514 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 91.1764221191406,
+                "tag": {
+                    "en": "beard"
+                }
+            },
+            {
+                "confidence": 43.0417251586914,
+                "tag": {
+                    "en": "man"
+                }
+            },
+            {
+                "confidence": 37.1812934875488,
+                "tag": {
+                    "en": "male"
+                }
+            },
+            {
+                "confidence": 35.618595123291,
+                "tag": {
+                    "en": "portrait"
+                }
+            },
+            {
+                "confidence": 35.3151779174805,
+                "tag": {
+                    "en": "person"
+                }
+            },
+            {
+                "confidence": 30.5656108856201,
+                "tag": {
+                    "en": "face"
+                }
+            },
+            {
+                "confidence": 29.1227111816406,
+                "tag": {
+                    "en": "adult"
+                }
+            },
+            {
+                "confidence": 27.8101387023926,
+                "tag": {
+                    "en": "smile"
+                }
+            },
+            {
+                "confidence": 26.3365459442139,
+                "tag": {
+                    "en": "happy"
+                }
+            },
+            {
+                "confidence": 26.1724147796631,
+                "tag": {
+                    "en": "hair"
+                }
+            },
+            {
+                "confidence": 26.0621738433838,
+                "tag": {
+                    "en": "smiling"
+                }
+            },
+            {
+                "confidence": 25.6783390045166,
+                "tag": {
+                    "en": "people"
+                }
+            },
+            {
+                "confidence": 24.9771175384521,
+                "tag": {
+                    "en": "handsome"
+                }
+            },
+            {
+                "confidence": 23.2130947113037,
+                "tag": {
+                    "en": "looking"
+                }
+            },
+            {
+                "confidence": 21.0036201477051,
+                "tag": {
+                    "en": "attractive"
+                }
+            },
+            {
+                "confidence": 20.4912376403809,
+                "tag": {
+                    "en": "expression"
+                }
+            },
+            {
+                "confidence": 20.1070518493652,
+                "tag": {
+                    "en": "guy"
+                }
+            },
+            {
+                "confidence": 18.9467754364014,
+                "tag": {
+                    "en": "eyes"
+                }
+            },
+            {
+                "confidence": 17.6776599884033,
+                "tag": {
+                    "en": "mature"
+                }
+            },
+            {
+                "confidence": 17.2519550323486,
+                "tag": {
+                    "en": "clothing"
+                }
+            },
+            {
+                "confidence": 16.6752471923828,
+                "tag": {
+                    "en": "glasses"
+                }
+            },
+            {
+                "confidence": 16.4645080566406,
+                "tag": {
+                    "en": "happiness"
+                }
+            },
+            {
+                "confidence": 16.1938343048096,
+                "tag": {
+                    "en": "youth"
+                }
+            },
+            {
+                "confidence": 16.1154708862305,
+                "tag": {
+                    "en": "casual"
+                }
+            },
+            {
+                "confidence": 15.9443349838257,
+                "tag": {
+                    "en": "senior"
+                }
+            },
+            {
+                "confidence": 15.6888790130615,
+                "tag": {
+                    "en": "one"
+                }
+            },
+            {
+                "confidence": 15.6597604751587,
+                "tag": {
+                    "en": "boy"
+                }
+            },
+            {
+                "confidence": 15.0163202285767,
+                "tag": {
+                    "en": "businessman"
+                }
+            },
+            {
+                "confidence": 14.5882215499878,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 14.4279718399048,
+                "tag": {
+                    "en": "gray"
+                }
+            },
+            {
+                "confidence": 13.0487880706787,
+                "tag": {
+                    "en": "office"
+                }
+            },
+            {
+                "confidence": 13.0118989944458,
+                "tag": {
+                    "en": "cheerful"
+                }
+            },
+            {
+                "confidence": 12.4053430557251,
+                "tag": {
+                    "en": "serious"
+                }
+            },
+            {
+                "confidence": 12.112208366394,
+                "tag": {
+                    "en": "manager"
+                }
+            },
+            {
+                "confidence": 12.0353021621704,
+                "tag": {
+                    "en": "corporate"
+                }
+            },
+            {
+                "confidence": 11.9257116317749,
+                "tag": {
+                    "en": "modern"
+                }
+            },
+            {
+                "confidence": 11.9015531539917,
+                "tag": {
+                    "en": "suit"
+                }
+            },
+            {
+                "confidence": 11.8506116867065,
+                "tag": {
+                    "en": "old"
+                }
+            },
+            {
+                "confidence": 11.8218803405762,
+                "tag": {
+                    "en": "professional"
+                }
+            },
+            {
+                "confidence": 10.934193611145,
+                "tag": {
+                    "en": "executive"
+                }
+            },
+            {
+                "confidence": 10.8961267471313,
+                "tag": {
+                    "en": "model"
+                }
+            },
+            {
+                "confidence": 10.8833112716675,
+                "tag": {
+                    "en": "child"
+                }
+            },
+            {
+                "confidence": 10.7695035934448,
+                "tag": {
+                    "en": "cute"
+                }
+            },
+            {
+                "confidence": 10.6395206451416,
+                "tag": {
+                    "en": "hand"
+                }
+            },
+            {
+                "confidence": 10.5386333465576,
+                "tag": {
+                    "en": "elderly"
+                }
+            },
+            {
+                "confidence": 10.5029211044312,
+                "tag": {
+                    "en": "pretty"
+                }
+            },
+            {
+                "confidence": 10.4619398117065,
+                "tag": {
+                    "en": "brunette"
+                }
+            },
+            {
+                "confidence": 10.3145627975464,
+                "tag": {
+                    "en": "men"
+                }
+            },
+            {
+                "confidence": 10.3078527450562,
+                "tag": {
+                    "en": "mortarboard"
+                }
+            },
+            {
+                "confidence": 10.1489543914795,
+                "tag": {
+                    "en": "bow tie"
+                }
+            },
+            {
+                "confidence": 10.0682754516602,
+                "tag": {
+                    "en": "friendly"
+                }
+            },
+            {
+                "confidence": 10.029351234436,
+                "tag": {
+                    "en": "joy"
+                }
+            },
+            {
+                "confidence": 9.83753967285156,
+                "tag": {
+                    "en": "eye"
+                }
+            },
+            {
+                "confidence": 9.75282382965088,
+                "tag": {
+                    "en": "human"
+                }
+            },
+            {
+                "confidence": 9.74363708496094,
+                "tag": {
+                    "en": "lady"
+                }
+            },
+            {
+                "confidence": 9.70939922332764,
+                "tag": {
+                    "en": "close"
+                }
+            },
+            {
+                "confidence": 9.66348934173584,
+                "tag": {
+                    "en": "blond"
+                }
+            },
+            {
+                "confidence": 9.64439868927002,
+                "tag": {
+                    "en": "look"
+                }
+            },
+            {
+                "confidence": 9.49452018737793,
+                "tag": {
+                    "en": "tie"
+                }
+            },
+            {
+                "confidence": 9.42492580413818,
+                "tag": {
+                    "en": "work"
+                }
+            },
+            {
+                "confidence": 9.25533008575439,
+                "tag": {
+                    "en": "necktie"
+                }
+            },
+            {
+                "confidence": 9.24260997772217,
+                "tag": {
+                    "en": "head"
+                }
+            },
+            {
+                "confidence": 9.0262393951416,
+                "tag": {
+                    "en": "cap"
+                }
+            },
+            {
+                "confidence": 9.00149536132812,
+                "tag": {
+                    "en": "spectacles"
+                }
+            },
+            {
+                "confidence": 8.98708343505859,
+                "tag": {
+                    "en": "fun"
+                }
+            },
+            {
+                "confidence": 8.85700988769531,
+                "tag": {
+                    "en": "success"
+                }
+            },
+            {
+                "confidence": 8.71798419952393,
+                "tag": {
+                    "en": "couple"
+                }
+            },
+            {
+                "confidence": 8.68109321594238,
+                "tag": {
+                    "en": "lifestyle"
+                }
+            },
+            {
+                "confidence": 8.30223274230957,
+                "tag": {
+                    "en": "emotion"
+                }
+            },
+            {
+                "confidence": 8.29957962036133,
+                "tag": {
+                    "en": "fashion"
+                }
+            },
+            {
+                "confidence": 8.27781391143799,
+                "tag": {
+                    "en": "teen"
+                }
+            },
+            {
+                "confidence": 8.2243480682373,
+                "tag": {
+                    "en": "alone"
+                }
+            },
+            {
+                "confidence": 8.19546318054199,
+                "tag": {
+                    "en": "confident"
+                }
+            },
+            {
+                "confidence": 8.1621265411377,
+                "tag": {
+                    "en": "sunglasses"
+                }
+            },
+            {
+                "confidence": 8.03958129882812,
+                "tag": {
+                    "en": "sexy"
+                }
+            },
+            {
+                "confidence": 7.89685773849487,
+                "tag": {
+                    "en": "love"
+                }
+            },
+            {
+                "confidence": 7.7612509727478,
+                "tag": {
+                    "en": "retired"
+                }
+            },
+            {
+                "confidence": 7.68855667114258,
+                "tag": {
+                    "en": "retirement"
+                }
+            },
+            {
+                "confidence": 7.62383413314819,
+                "tag": {
+                    "en": "age"
+                }
+            },
+            {
+                "confidence": 7.47788047790527,
+                "tag": {
+                    "en": "shirt"
+                }
+            },
+            {
+                "confidence": 7.18392181396484,
+                "tag": {
+                    "en": "home"
+                }
+            },
+            {
+                "confidence": 7.16806077957153,
+                "tag": {
+                    "en": "childhood"
+                }
+            },
+            {
+                "confidence": 7.11736059188843,
+                "tag": {
+                    "en": "garment"
+                }
+            },
+            {
+                "confidence": 7.09246349334717,
+                "tag": {
+                    "en": "kid"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}
