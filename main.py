@@ -17,7 +17,6 @@ SENSOR_HEIGHT_PIXELS = 2464
 
 def getPicture():
     camera = PiCamera()
-
     camera.capture("snapshot.jpg")
     camera.close()
 
@@ -26,7 +25,7 @@ def getPicture():
 def cropPicture():
     img = cv2.imread("snapshot.jpg")
     cropped_image = img[1250:2000, 820:2460]
-    cv2.imwrite('croppedimage1.png', cropped_image)
+    cv2.imwrite('croppedimage.png', cropped_image)
 
 
     return cropped_image
