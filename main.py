@@ -8,6 +8,8 @@ from vision.topCamera import *
 from sensors.mb1040.sensor_test import *
 from picamera import PiCamera
 import os
+from vision.object_detection import *
+from vision.detect_person import *
 
 
 FOCAL_LENGTH = 3.04  # mm
@@ -31,8 +33,8 @@ def getPicture():
     
     print("Cheese!")
     takePicture()
-    print("Done!")
-
+    run_detection()
+    return analyze_images()
 
 
 def cropPicture():
@@ -92,33 +94,39 @@ def main():
                 distanceTravelled = 0
 
             else:
-                getPicture()
-                croppedImage = cropPicture()
-                objectWidth = getObjectWidth(distance, croppedImage)
-                print(f"Object Width: {objectWidth}")
-                #  Assume .5 meters per second
-                spin_right(1.2)
-                brake(1.2)
-                distanceSpin = getDistance()
-                print(f"Distance After Spin {distanceSpin}")
-                if distanceSpin < 1:
-                    attemptsToMove = 4
-                else:
-                    run(((objectWidth + .3) * 0.8))
-                    brake(((objectWidth + 0.3) * 0.8))
-                    spin_left(1.2)
-                    brake(1.2)
-                    attemptsToMove += 1
-                    distanceTravelled += (objectWidth + 0.3) * 0.8
-
-                if attemptsToMove > 3:
-                    back(distanceTravelled)
-                    brake(distanceTravelled)
+                personDetected = getPicture()
+                if not personDetected:
+                    croppedImage = cropPicture()
+                    objectWidth = getObjectWidth(distance, croppedImage)
+                    print(f"Object Width: {objectWidth}")
+                    #  Assume .5 meters per second
                     spin_right(1.2)
                     brake(1.2)
-                    distanceTravelled = 0
-                    attemptsToMove = 0
-                    
+                    distanceSpin = getDistance()
+                    print(f"Distance After Spin {distanceSpin}")
+                    if distanceSpin < 1:
+                        attemptsToMove = 4
+                    else:
+                        run(((objectWidth + .3) * 0.8))
+                        brake(((objectWidth + 0.3) * 0.8))
+                        spin_left(1.2)
+                        brake(1.2)
+                        attemptsToMove += 1
+                        distanceTravelled += (objectWidth + 0.3) * 0.8
+
+                    if attemptsToMove > 3:
+                        back(distanceTravelled)
+                        brake(distanceTravelled)
+                        spin_right(1.2)
+                        brake(1.2)
+                        distanceTravelled = 0
+                        attemptsToMove = 0
+                else:
+                    # Dance dance dance forever.
+                    while True:
+                        spin_right(2)
+                        spin_left(2)
+
 
     except KeyboardInterrupt:
         pass

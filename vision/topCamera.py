@@ -5,7 +5,8 @@ def takePicture():
 
     ret, frame = cam.read()
 
-    cv2.imwrite(f'UnpredictableDangerousHuman.png', frame)
+    cv2.imwrite('UnpredictableDangerousHuman.png', frame)
 
     cam.release()
     cv2.destroyAllWindows()
+
