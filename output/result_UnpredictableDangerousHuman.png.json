@@ -2,315 +2,549 @@
     "result": {
         "tags": [
             {
-                "confidence": 100,
+                "confidence": 38.3727416992188,
                 "tag": {
-                    "en": "floor lamp"
+                    "en": "person"
                 }
             },
             {
-                "confidence": 91.375862121582,
+                "confidence": 36.7201118469238,
                 "tag": {
-                    "en": "lamp"
+                    "en": "sweatshirt"
                 }
             },
             {
-                "confidence": 68.05517578125,
+                "confidence": 36.588207244873,
                 "tag": {
-                    "en": "furniture"
+                    "en": "sweater"
                 }
             },
             {
-                "confidence": 45.5500793457031,
+                "confidence": 35.4764671325684,
                 "tag": {
-                    "en": "furnishing"
+                    "en": "garment"
                 }
             },
             {
-                "confidence": 21.5575180053711,
+                "confidence": 34.2937240600586,
                 "tag": {
-                    "en": "pole"
+                    "en": "man"
                 }
             },
             {
-                "confidence": 15.1785802841187,
+                "confidence": 33.2616310119629,
                 "tag": {
-                    "en": "design"
+                    "en": "sleeve"
                 }
             },
             {
-                "confidence": 14.4676465988159,
+                "confidence": 32.3729362487793,
                 "tag": {
-                    "en": "metal"
+                    "en": "people"
                 }
             },
             {
-                "confidence": 13.9753894805908,
+                "confidence": 32.2813377380371,
                 "tag": {
-                    "en": "line"
+                    "en": "pullover"
                 }
             },
             {
-                "confidence": 13.9179286956787,
+                "confidence": 31.7781028747559,
                 "tag": {
-                    "en": "old"
+                    "en": "adult"
                 }
             },
             {
-                "confidence": 13.5053987503052,
+                "confidence": 31.6503124237061,
                 "tag": {
-                    "en": "rod"
+                    "en": "clothing"
                 }
             },
             {
-                "confidence": 13.3788871765137,
+                "confidence": 31.3007373809814,
                 "tag": {
-                    "en": "sky"
+                    "en": "male"
                 }
             },
             {
-                "confidence": 13.1854782104492,
+                "confidence": 30.352108001709,
                 "tag": {
-                    "en": "texture"
+                    "en": "model"
                 }
             },
             {
-                "confidence": 12.5401592254639,
+                "confidence": 29.4007186889648,
                 "tag": {
-                    "en": "close"
+                    "en": "attractive"
                 }
             },
             {
-                "confidence": 12.0585021972656,
+                "confidence": 28.489767074585,
                 "tag": {
-                    "en": "wall"
+                    "en": "portrait"
                 }
             },
             {
-                "confidence": 11.7903385162354,
+                "confidence": 26.9056739807129,
                 "tag": {
-                    "en": "industrial"
+                    "en": "jacket"
                 }
             },
             {
-                "confidence": 11.7544918060303,
+                "confidence": 26.3996276855469,
                 "tag": {
-                    "en": "energy"
+                    "en": "fashion"
                 }
             },
             {
-                "confidence": 11.7118148803711,
+                "confidence": 25.222993850708,
                 "tag": {
-                    "en": "object"
+                    "en": "standing"
                 }
             },
             {
-                "confidence": 11.6410293579102,
+                "confidence": 24.9733371734619,
                 "tag": {
-                    "en": "frame"
+                    "en": "handsome"
                 }
             },
             {
-                "confidence": 11.377387046814,
+                "confidence": 24.3310623168945,
                 "tag": {
-                    "en": "structure"
+                    "en": "studio"
                 }
             },
             {
-                "confidence": 11.3179168701172,
+                "confidence": 22.0427093505859,
                 "tag": {
-                    "en": "electricity"
+                    "en": "casual"
                 }
             },
             {
-                "confidence": 10.909574508667,
+                "confidence": 21.3911838531494,
                 "tag": {
-                    "en": "door"
+                    "en": "smile"
                 }
             },
             {
-                "confidence": 10.9003610610962,
+                "confidence": 20.8791580200195,
                 "tag": {
-                    "en": "power"
+                    "en": "boy"
                 }
             },
             {
-                "confidence": 10.6841335296631,
+                "confidence": 20.6912860870361,
                 "tag": {
-                    "en": "light"
+                    "en": "happy"
                 }
             },
             {
-                "confidence": 10.2991409301758,
+                "confidence": 18.8803939819336,
                 "tag": {
-                    "en": "empty"
+                    "en": "cardigan"
                 }
             },
             {
-                "confidence": 10.2470273971558,
+                "confidence": 17.7690105438232,
                 "tag": {
-                    "en": "pattern"
+                    "en": "face"
                 }
             },
             {
-                "confidence": 10.073748588562,
+                "confidence": 17.2971534729004,
                 "tag": {
-                    "en": "space"
+                    "en": "confident"
                 }
             },
             {
-                "confidence": 9.9293909072876,
+                "confidence": 17.0521068572998,
                 "tag": {
-                    "en": "equipment"
+                    "en": "lady"
                 }
             },
             {
-                "confidence": 9.85890674591064,
+                "confidence": 16.8931083679199,
                 "tag": {
-                    "en": "environment"
+                    "en": "posing"
                 }
             },
             {
-                "confidence": 9.71541690826416,
+                "confidence": 16.1021518707275,
                 "tag": {
-                    "en": "steel"
+                    "en": "pretty"
                 }
             },
             {
-                "confidence": 9.44645595550537,
+                "confidence": 15.7590417861938,
                 "tag": {
-                    "en": "color"
+                    "en": "human"
                 }
             },
             {
-                "confidence": 9.38290214538574,
+                "confidence": 15.5540857315063,
                 "tag": {
-                    "en": "industry"
+                    "en": "guy"
                 }
             },
             {
-                "confidence": 9.18101119995117,
+                "confidence": 15.3356370925903,
                 "tag": {
-                    "en": "wallpaper"
+                    "en": "youth"
                 }
             },
             {
-                "confidence": 8.82174491882324,
+                "confidence": 15.3347473144531,
                 "tag": {
-                    "en": "brown"
+                    "en": "professional"
                 }
             },
             {
-                "confidence": 8.67144203186035,
+                "confidence": 15.1978588104248,
                 "tag": {
-                    "en": "paper"
+                    "en": "body"
                 }
             },
             {
-                "confidence": 8.66594219207764,
+                "confidence": 14.6191606521606,
                 "tag": {
-                    "en": "water"
+                    "en": "shirt"
                 }
             },
             {
-                "confidence": 8.64523601531982,
+                "confidence": 14.5837526321411,
                 "tag": {
-                    "en": "antique"
+                    "en": "business"
                 }
             },
             {
-                "confidence": 8.4498872756958,
+                "confidence": 14.5040454864502,
                 "tag": {
-                    "en": "art"
+                    "en": "pose"
                 }
             },
             {
-                "confidence": 8.36063003540039,
+                "confidence": 14.4761867523193,
                 "tag": {
-                    "en": "floor"
+                    "en": "smiling"
                 }
             },
             {
-                "confidence": 8.33269214630127,
+                "confidence": 14.4659309387207,
                 "tag": {
-                    "en": "wood"
+                    "en": "sexy"
                 }
             },
             {
-                "confidence": 8.18368816375732,
+                "confidence": 14.3439893722534,
                 "tag": {
-                    "en": "retro"
+                    "en": "jeans"
                 }
             },
             {
-                "confidence": 8.09106922149658,
+                "confidence": 14.1945142745972,
                 "tag": {
-                    "en": "new"
+                    "en": "one"
                 }
             },
             {
-                "confidence": 8.01696109771729,
+                "confidence": 14.02467918396,
                 "tag": {
-                    "en": "graphic"
+                    "en": "look"
                 }
             },
             {
-                "confidence": 7.95413017272949,
+                "confidence": 13.974648475647,
                 "tag": {
-                    "en": "interior"
+                    "en": "suit"
                 }
             },
             {
-                "confidence": 7.76817464828491,
+                "confidence": 13.9504356384277,
                 "tag": {
-                    "en": "nobody"
+                    "en": "brunette"
                 }
             },
             {
-                "confidence": 7.6798882484436,
+                "confidence": 13.7658433914185,
                 "tag": {
-                    "en": "iron"
+                    "en": "black"
                 }
             },
             {
-                "confidence": 7.4356164932251,
+                "confidence": 13.6409606933594,
                 "tag": {
-                    "en": "vintage"
+                    "en": "cute"
                 }
             },
             {
-                "confidence": 7.41332483291626,
+                "confidence": 13.3607263565063,
                 "tag": {
-                    "en": "technology"
+                    "en": "style"
                 }
             },
             {
-                "confidence": 7.40308046340942,
+                "confidence": 13.0184507369995,
                 "tag": {
-                    "en": "closeup"
+                    "en": "lifestyle"
                 }
             },
             {
-                "confidence": 7.14017629623413,
+                "confidence": 12.6912660598755,
                 "tag": {
-                    "en": "cable"
+                    "en": "hair"
                 }
             },
             {
-                "confidence": 7.05198001861572,
+                "confidence": 12.6851167678833,
                 "tag": {
-                    "en": "surface"
+                    "en": "student"
                 }
             },
             {
-                "confidence": 7.02542352676392,
+                "confidence": 11.8613090515137,
                 "tag": {
-                    "en": "wooden"
+                    "en": "teenager"
                 }
             },
             {
-                "confidence": 7.00442504882812,
+                "confidence": 11.270001411438,
+                "tag": {
+                    "en": "success"
+                }
+            },
+            {
+                "confidence": 11.2248077392578,
                 "tag": {
                     "en": "modern"
+                }
+            },
+            {
+                "confidence": 10.9847545623779,
+                "tag": {
+                    "en": "successful"
+                }
+            },
+            {
+                "confidence": 10.977635383606,
+                "tag": {
+                    "en": "happiness"
+                }
+            },
+            {
+                "confidence": 10.6913003921509,
+                "tag": {
+                    "en": "single"
+                }
+            },
+            {
+                "confidence": 10.6614427566528,
+                "tag": {
+                    "en": "cool"
+                }
+            },
+            {
+                "confidence": 10.3126564025879,
+                "tag": {
+                    "en": "men"
+                }
+            },
+            {
+                "confidence": 10.2075157165527,
+                "tag": {
+                    "en": "work"
+                }
+            },
+            {
+                "confidence": 10.1369495391846,
+                "tag": {
+                    "en": "executive"
+                }
+            },
+            {
+                "confidence": 9.90844631195068,
+                "tag": {
+                    "en": "holding"
+                }
+            },
+            {
+                "confidence": 9.8834056854248,
+                "tag": {
+                    "en": "hand"
+                }
+            },
+            {
+                "confidence": 9.73516654968262,
+                "tag": {
+                    "en": "job"
+                }
+            },
+            {
+                "confidence": 9.71563816070557,
+                "tag": {
+                    "en": "businessman"
+                }
+            },
+            {
+                "confidence": 9.60229110717773,
+                "tag": {
+                    "en": "looking"
+                }
+            },
+            {
+                "confidence": 9.57751369476318,
+                "tag": {
+                    "en": "confidence"
+                }
+            },
+            {
+                "confidence": 9.16615581512451,
+                "tag": {
+                    "en": "20s"
+                }
+            },
+            {
+                "confidence": 9.14978981018066,
+                "tag": {
+                    "en": "friendly"
+                }
+            },
+            {
+                "confidence": 8.83826541900635,
+                "tag": {
+                    "en": "office"
+                }
+            },
+            {
+                "confidence": 8.6908540725708,
+                "tag": {
+                    "en": "hands"
+                }
+            },
+            {
+                "confidence": 8.43169403076172,
+                "tag": {
+                    "en": "clothes"
+                }
+            },
+            {
+                "confidence": 8.29623126983643,
+                "tag": {
+                    "en": "positive"
+                }
+            },
+            {
+                "confidence": 8.27423191070557,
+                "tag": {
+                    "en": "teen"
+                }
+            },
+            {
+                "confidence": 8.24810981750488,
+                "tag": {
+                    "en": "covering"
+                }
+            },
+            {
+                "confidence": 8.19502353668213,
+                "tag": {
+                    "en": "healthy"
+                }
+            },
+            {
+                "confidence": 8.18317031860352,
+                "tag": {
+                    "en": "businesswoman"
+                }
+            },
+            {
+                "confidence": 8.14426612854004,
+                "tag": {
+                    "en": "stylish"
+                }
+            },
+            {
+                "confidence": 7.73446035385132,
+                "tag": {
+                    "en": "corporate"
+                }
+            },
+            {
+                "confidence": 7.71593427658081,
+                "tag": {
+                    "en": "elegant"
+                }
+            },
+            {
+                "confidence": 7.68063306808472,
+                "tag": {
+                    "en": "expression"
+                }
+            },
+            {
+                "confidence": 7.56313419342041,
+                "tag": {
+                    "en": "head"
+                }
+            },
+            {
+                "confidence": 7.53741979598999,
+                "tag": {
+                    "en": "one person"
+                }
+            },
+            {
+                "confidence": 7.51334714889526,
+                "tag": {
+                    "en": "relaxed"
+                }
+            },
+            {
+                "confidence": 7.50995874404907,
+                "tag": {
+                    "en": "adolescent"
+                }
+            },
+            {
+                "confidence": 7.48963832855225,
+                "tag": {
+                    "en": "trendy"
+                }
+            },
+            {
+                "confidence": 7.37049102783203,
+                "tag": {
+                    "en": "fit"
+                }
+            },
+            {
+                "confidence": 7.36181974411011,
+                "tag": {
+                    "en": "top"
+                }
+            },
+            {
+                "confidence": 7.2739725112915,
+                "tag": {
+                    "en": "sensuality"
+                }
+            },
+            {
+                "confidence": 7.26858520507812,
+                "tag": {
+                    "en": "blue"
+                }
+            },
+            {
+                "confidence": 7.2545690536499,
+                "tag": {
+                    "en": "gorgeous"
+                }
+            },
+            {
+                "confidence": 7.03008079528809,
+                "tag": {
+                    "en": "indoors"
                 }
             }
         ]
